@@ -2,6 +2,14 @@
 
 Private demo and marketing app for `studyluma.org`. It consumes the public [Website](https://github.com/ChromatisGit/studyluma) package for application routes and owns the public landing page, demo database configuration, assets, and deployment concerns.
 
+The active routes import Website's named `routes/*` and `views/*` package
+exports. Demo owns only its landing page and route registry; product behavior,
+database migrations, and signed-in views stay in Website's modular monolith.
+The dependency currently uses the sibling Website checkout
+(`file:../studyluma-website`) to include its latest local rewrite. Before a
+standalone install or deployment, publish that Website revision and change the
+dependency to its immutable Git revision.
+
 ## Local setup
 
 Install dependencies with `bun install`. Supply the Website's documented
@@ -15,7 +23,7 @@ bun run db:apply
 bun run dev
 ```
 
-Publish the sample chapter from the Content checkout with `STUDYLUMA_URL` pointed at this app and the same `PUBLISH_TOKEN`. Then run `bun run seed`. Open `/` for the public landing page or `/login?from=/app` for the app. The setup commands call the Website package's migration and seed scripts so its schema remains owned by Website.
+Publish the sample chapter from the Content checkout with `STUDYLUMA_URL` pointed at this app and the same `PUBLISH_TOKEN`. Then run `bun run seed`. Open `/` for the public landing page or `/login?from=/app` for the app. The setup commands resolve Website's public setup exports and run its framework `db apply` command from the Website package directory. Its schema remains owned by Website. Use a fresh database for the new module migrations.
 
 `bun run check` and `bun run build` verify the wrapper app. Its database and secrets are configured only in this repository or the deployment environment.
 

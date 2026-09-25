@@ -1,1 +1,1 @@
-import "studyluma/app/entry.client";
+import "studyluma/entry.client";

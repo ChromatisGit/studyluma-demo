@@ -1,1 +1,1 @@
-export { default } from "studyluma/app/entry.server";
+export { default } from "studyluma/entry.server";

@@ -9,10 +9,10 @@
     "check": "react-router typegen && tsc --noEmit",
     "db:provision": "bun run scripts/websiteCli.ts db:provision",
     "db:apply": "bun run scripts/websiteCli.ts db:apply",
-    "seed": "bun run scripts/websiteCli.ts seed:milestone"
+    "seed": "bun run scripts/websiteCli.ts seed"
   },
   "dependencies": {
-    "studyluma": "git+https://github.com/ChromatisGit/studyluma.git#9eed75e",
+    "studyluma": "file:../studyluma-website",
     "@chromatis/base": "git+https://github.com/ChromatisGit/chromatis-base-framework.git#80ca0af",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
