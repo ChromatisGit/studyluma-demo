@@ -3,6 +3,5 @@
 /.react-router/
 /.env
 /.env.*
-!/.env.example
 /.wrangler/
 *.tsbuildinfo

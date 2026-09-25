@@ -4,7 +4,10 @@ Private demo and marketing app for `studyluma.org`. It consumes the public [Webs
 
 ## Local setup
 
-Install dependencies with `bun install`. Copy `.env.example` to `.env` and set credentials for a **separate local demo database**. Then run:
+Install dependencies with `bun install`. Supply the Website's documented
+database, publishing, and seed secrets through process environment injection
+from your credential manager or shell. Use a **separate local demo database**;
+no `.env` file is required. Then run:
 
 ```sh
 bun run db:provision
