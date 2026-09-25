@@ -5,10 +5,9 @@ Private demo and marketing app for `studyluma.org`. It consumes the public [Webs
 The active routes import Website's named `routes/*` and `views/*` package
 exports. Demo owns only its landing page and route registry; product behavior,
 database migrations, and signed-in views stay in Website's modular monolith.
-The dependency currently uses the sibling Website checkout
-(`file:../studyluma-website`) to include its latest local rewrite. Before a
-standalone install or deployment, publish that Website revision and change the
-dependency to its immutable Git revision.
+During local development, the dependency intentionally uses the sibling Website
+checkout (`file:../studyluma-website`). Website's `dev` branch is local, and
+`chromacli commit` synchronizes the work through Planning.
 
 ## Local setup
 
