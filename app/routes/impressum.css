@@ -1,0 +1,29 @@
+.demo-impressum {
+  min-height: 70vh;
+  gap: 0;
+  padding-block: var(--space-700) var(--space-1100);
+}
+
+.demo-impressum > .link--standalone {
+  align-self: flex-start;
+  margin-bottom: var(--space-300);
+}
+
+.demo-impressum .page-head {
+  padding-block: var(--space-300) var(--space-500);
+}
+
+.demo-impressum-inner {
+  max-width: var(--measure);
+  color: var(--color-text);
+  font-size: var(--text-md);
+  line-height: var(--leading-body);
+}
+
+.demo-impressum-inner p {
+  margin-block: 0 var(--space-500);
+}
+
+.demo-impressum-inner a {
+  color: var(--color-link);
+}
