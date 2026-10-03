@@ -13,7 +13,7 @@
         "react": "^19.2.1",
         "react-dom": "^19.2.1",
         "react-router": "^7.9.0",
-        "studyluma": "git+https://github.com/ChromatisGit/studyluma.git#claude/adoring-babbage-21pa67",
+        "studyluma": "git+https://github.com/ChromatisGit/studyluma.git#9dc56e4",
       },
       "devDependencies": {
         "@react-router/dev": "^7.9.0",
@@ -656,7 +656,7 @@
 
     "stringify-entities": ["stringify-entities@4.0.4", "", { "dependencies": { "character-entities-html4": "^2.0.0", "character-entities-legacy": "^3.0.0" } }, "sha512-IwfBptatlO+QCJUo19AqvrPNqlVMpW9YEL2LIVY+Rpv2qsjCGxaDLNRgeGsQWJhfItebuJhsGSLjaBbNSQ+ieg=="],
 
-    "studyluma": ["studyluma@github:ChromatisGit/studyluma#20c39a6", { "dependencies": { "@chromatis/base": "git+https://github.com/ChromatisGit/chromatis-base-framework.git#claude/adoring-babbage-21pa67", "@fontsource-variable/fraunces": "^5.2.0", "@fontsource/dm-sans": "^5.2.0", "@fontsource/stix-two-math": "^5.2.0", "@react-router/node": "^7.9.0", "@react-router/serve": "^7.9.0", "isbot": "^5.1.0", "kern-typ": "^0.2.0", "lucide-react": "^0.546.0", "prism-react-renderer": "^2.4.1", "react": "^19.2.1", "react-dom": "^19.2.1", "react-router": "^7.9.0", "rehype-react": "^8.0.0", "remark-directive": "^4.0.0", "remark-gfm": "^4.0.1", "remark-math": "^6.0.0", "remark-parse": "^11.0.0", "remark-rehype": "^11.1.2", "unified": "^11.0.5", "unist-util-visit": "^5.1.0" } }, "ChromatisGit-studyluma-20c39a6", "sha512-REpVKhKlcVweUkTDqzwf4XOKdn34Tql2ChCbp6heZ11n2aPQSTPYuL/dCGS6hSNZqAptOFGx5Hg1BYRVOoOQAQ=="],
+    "studyluma": ["studyluma@github:ChromatisGit/studyluma#9dc56e4", { "dependencies": { "@chromatis/base": "git+https://github.com/ChromatisGit/chromatis-base-framework.git#claude/adoring-babbage-21pa67", "@fontsource-variable/fraunces": "^5.2.0", "@fontsource/dm-sans": "^5.2.0", "@fontsource/stix-two-math": "^5.2.0", "@react-router/node": "^7.9.0", "@react-router/serve": "^7.9.0", "isbot": "^5.1.0", "kern-typ": "^0.2.0", "lucide-react": "^0.546.0", "prism-react-renderer": "^2.4.1", "react": "^19.2.1", "react-dom": "^19.2.1", "react-router": "^7.9.0", "rehype-react": "^8.0.0", "remark-directive": "^4.0.0", "remark-gfm": "^4.0.1", "remark-math": "^6.0.0", "remark-parse": "^11.0.0", "remark-rehype": "^11.1.2", "unified": "^11.0.5", "unist-util-visit": "^5.1.0" } }, "ChromatisGit-studyluma-9dc56e4", "sha512-YqExBw/HiOCvJloKkEjvESkltujAYYBNcC5/SyBQatnmxxAX1+mqvakulpjU9yJ/OxTZbmH1fVyUoYQqASMdsA=="],
 
     "style-to-js": ["style-to-js@1.1.21", "", { "dependencies": { "style-to-object": "1.0.14" } }, "sha512-RjQetxJrrUJLQPHbLku6U/ocGtzyjbJMP9lCNK7Ag0CNh690nSH8woqWH9u16nMjYBAok+i7JO1NP2pOy8IsPQ=="],
 
