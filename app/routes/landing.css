@@ -1,0 +1,154 @@
+/* Landing page. Only the hero decoration is custom; everything else uses
+   framework classes (section, section-head, columns-ruled, grid, Accordion). */
+
+.landing-hero {
+  --karo-line: color-mix(
+    in srgb,
+    var(--color-action-primary-bg) 10%,
+    transparent
+  );
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-bg);
+  background-image:
+    linear-gradient(to right, var(--karo-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--karo-line) 1px, transparent 1px);
+  background-size: 1.5rem 1.5rem;
+  background-position: -1px -1px;
+}
+/* The Korrekturrand of a Karoheft, in violet instead of red */
+.landing-hero__margin {
+  position: absolute;
+  inset-block: 0;
+  left: clamp(0.625rem, 2.2vw, 2rem);
+  width: var(--border-2);
+  background: color-mix(
+    in srgb,
+    var(--color-action-primary-bg) 30%,
+    var(--color-bg)
+  );
+}
+.landing-hero__grid {
+  position: relative;
+  display: grid;
+  gap: var(--space-1000);
+  align-items: center;
+  padding-block: var(--space-1000) var(--space-1200);
+}
+@media (min-width: 1024px) {
+  .landing-hero__grid {
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+    gap: var(--space-1100);
+  }
+}
+.landing-hero__copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-600);
+  text-align: left;
+}
+/* .display balances its lines (text-wrap: balance), which reads like
+   justified text in a big left-aligned headline. Ragged instead: */
+.landing-hero__title {
+  max-width: 17ch;
+  text-wrap: pretty;
+  letter-spacing: -0.025em;
+  line-height: var(--leading-display-tight);
+}
+.landing-hero__actions {
+  --cluster-gap: var(--space-500) var(--space-700);
+}
+.landing-hero__note {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+/* The gap in the headline fills in once, then gets highlighted. */
+.landing-gap {
+  display: inline-block;
+  min-width: 4.4em;
+  border-bottom: 0.07em dashed var(--color-border-control);
+  animation: landing-gap-settle 0.4s ease 2.2s forwards;
+}
+.landing-gap__word {
+  display: inline-block;
+  opacity: 0;
+  font-style: italic;
+  padding: 0 0.12em;
+  margin: 0 -0.12em;
+  border-radius: 0.3em 0.15em 0.35em 0.2em;
+  background-image: linear-gradient(
+    var(--color-bg-accent),
+    var(--color-bg-accent)
+  );
+  background-repeat: no-repeat;
+  background-position: 0 86%;
+  background-size: 0% 60%;
+  animation:
+    landing-word-in 0.5s ease 0.7s forwards,
+    landing-mark 0.8s cubic-bezier(0.5, 0, 0.2, 1) 1.35s forwards;
+}
+@keyframes landing-word-in {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes landing-mark {
+  to {
+    background-size: 100% 60%;
+  }
+}
+@keyframes landing-gap-settle {
+  to {
+    border-bottom-color: transparent;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .landing-gap__word {
+    animation: none;
+    opacity: 1;
+    background-size: 100% 60%;
+  }
+  .landing-gap {
+    animation: none;
+    border-bottom-color: transparent;
+  }
+}
+
+/* A real task from a worksheet, live: answer it, check it, ask for help */
+.landing-sample .card__body {
+  gap: var(--space-400);
+}
+.landing-sample__top {
+  justify-content: space-between;
+}
+
+.landing-section {
+  border-top: var(--border-1) solid var(--color-border-subtle);
+}
+.landing-feature__top {
+  justify-content: space-between;
+}
+
+.landing-who {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-600) var(--space-700);
+}
+.landing-who__photo {
+  flex: none;
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: var(--radius-round);
+  object-fit: cover;
+  background: var(--color-bg-subtle);
+}
+.landing-who__text {
+  flex: 1 1 28rem;
+  min-width: 0;
+}
+.landing-who__links {
+  --cluster-gap: var(--space-200) var(--space-600);
+}

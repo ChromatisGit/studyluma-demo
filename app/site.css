@@ -1,0 +1,19 @@
+/* Public pages: the footer is the only extra; the rest is framework. */
+.site-footer {
+  border-top: var(--border-1) solid var(--color-border-subtle);
+  background: var(--color-bg-subtle);
+}
+.site-footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-300) var(--space-600);
+  padding-block: var(--space-500);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+.site-footer__links {
+  display: flex;
+  gap: var(--space-500);
+}

@@ -1,0 +1,12 @@
+{
+  "welcome": {
+    "title": "Willkommen in der Demo",
+    "close": "Dialog schließen",
+    "intro": "Du bist ohne Anmeldung im Demo-Kurs „{course}“. Wie möchtest du ihn sehen?",
+    "student": "Schülersicht",
+    "studentText": "Lernweg ansehen und Arbeitsblätter ausfüllen.",
+    "teacher": "Lehrkraftsicht",
+    "teacherText": "Arbeitsblätter freischalten, Musterlösungen freigeben und Lesson Frames ausprobieren.",
+    "hint": "Du kannst die Ansicht jederzeit unten in der Seitenleiste wechseln. Alles, was du einträgst, bleibt nur in diesem Browser."
+  }
+}

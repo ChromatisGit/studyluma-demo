@@ -1,0 +1,10 @@
+/* The welcome dialog's choices are buttons styled as the card's link */
+.demo-choice {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-weight: var(--weight-bold);
+  text-align: left;
+  cursor: pointer;
+}
