@@ -13,11 +13,8 @@ export function SiteFooter() {
             String(new Date().getFullYear()),
           )}
         </span>
-        <span>{TEXT.footer.tagline}</span>
+        <span className="site-footer__tagline">{TEXT.footer.tagline}</span>
         <span className="site-footer__links">
-          <Link className="link" to="/roadmap">
-            {TEXT.footer.roadmap}
-          </Link>
           <Link className="link" to="/impressum">
             {TEXT.footer.impressum}
           </Link>

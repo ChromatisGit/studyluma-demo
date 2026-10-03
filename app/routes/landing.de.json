@@ -4,14 +4,12 @@
     "description": "Guter Unterricht hat eine Logik. StudyLuma macht sie sichtbar: mit klaren Lernwegen, interaktiven Arbeitsblättern und direkten Rückmeldungen."
   },
   "hero": {
-    "kicker": "Kostenlos · Ohne Werbung · Im Unterricht erprobt",
     "titleBefore": "Lernen heißt, Licht ins",
     "titleGap": "Unklare",
     "titleAfter": "zu bringen.",
     "lead": "Guter Unterricht hat eine Logik. StudyLuma macht sie sichtbar: mit klaren Lernwegen, interaktiven Arbeitsblättern und direkten Rückmeldungen.",
     "demo": "Demo öffnen",
-    "what": "Was ist StudyLuma?",
-    "note": "Ohne Anmeldung. Du startest als Schüler:in und kannst jederzeit zur Lehrkraftsicht wechseln."
+    "what": "Was ist StudyLuma?"
   },
   "sample": {
     "label": "Beispiel aus einem Arbeitsblatt",
@@ -19,35 +17,34 @@
     "badge": "Probier es aus"
   },
   "features": {
-    "kicker": "Was ist StudyLuma?",
-    "title": "Eine Lernumgebung, die Unterricht übersichtlich macht.",
-    "lead": "Lernende sehen, wo sie stehen und was als Nächstes kommt. Lehrkräfte legen fest, welches Kapitel gerade dran ist und welche Arbeitsblätter freigegeben sind. Alles an einem Ort, ohne Werbung und ohne Ablenkung.",
+    "title": "Was ist StudyLuma?",
+    "lead": "StudyLuma ist eine digitale Lernumgebung für den Unterricht. Inhalte werden in Lernwegen organisiert, Arbeitsblätter können interaktiv bearbeitet werden und Lehrkräfte steuern, welche Kapitel und Materialien für eine Klasse verfügbar sind. Ergänzend können Lernende Inhalte selbstständig üben und wiederholen.",
     "items": [
       {
-        "icon": "map",
         "title": "Lernwege",
-        "text": "Themenreihen erscheinen als klarer Weg aus Kapiteln. Lernende behalten den Überblick, auch nach einer Fehlstunde."
+        "text": "Unterrichtsreihen werden in Kapitel gegliedert. Lernende sehen, wo sie sich befinden und welche Inhalte als Nächstes folgen."
       },
       {
-        "icon": "sheet",
         "title": "Interaktive Arbeitsblätter",
-        "text": "Erklärungen, Beispiele und Aufgaben mit Lücken zum Ausfüllen. Antworten bleiben gespeichert, Rückmeldungen kommen direkt."
+        "text": "Erklärungen, Beispiele und Aufgaben werden direkt im Browser bearbeitet. Eingaben bleiben erhalten und Rückmeldungen können unmittelbar erfolgen."
       },
       {
-        "icon": "frames",
         "title": "Steuerung durch die Lehrkraft",
-        "text": "Das aktuelle Kapitel festlegen und Arbeitsblätter gezielt freigeben oder sperren, passend zum Stand der Klasse."
+        "text": "Lehrkräfte legen fest, welches Kapitel aktuell ist und welche Arbeitsblätter und Inhalte für die Klasse verfügbar sind."
       },
       {
-        "icon": "training",
         "title": "Lerntraining",
-        "text": "Kurze Übungseinheiten, um Gelerntes regelmäßig aufzufrischen, auch außerhalb des Unterrichts.",
+        "text": "Kurze Übungseinheiten unterstützen dabei, bereits behandelte Inhalte regelmäßig zu wiederholen.",
         "badge": "In Arbeit"
       }
     ]
   },
+  "project": {
+    "title": "Roadmap",
+    "body": "StudyLuma wird derzeit weiterentwickelt. Die Roadmap zeigt, welche Funktionen bereits umgesetzt sind, woran aktuell gearbeitet wird und welche nächsten Schritte geplant sind.",
+    "link": "Roadmap ansehen"
+  },
   "faq": {
-    "kicker": "Für Lehrkräfte und Eltern",
     "title": "Häufige Fragen",
     "missing": "Deine Frage ist nicht dabei?",
     "write": "Schreib eine E-Mail.",

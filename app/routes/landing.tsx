@@ -1,11 +1,5 @@
 import { Link, useLoaderData } from "react-router";
-import {
-  ArrowRight,
-  FileText,
-  Map,
-  Presentation,
-  RotateCcw,
-} from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import {
   Accordion,
   Badge,
@@ -15,7 +9,6 @@ import {
   buttonClassName,
 } from "@chromatis/base/ui";
 import { getWorksheetChapter, TaskSample } from "studyluma/modules/worksheets";
-import { SiteFooter } from "../SiteFooter";
 import SITE from "../site.de.json";
 import TEXT from "./landing.de.json";
 import "./landing.css";
@@ -23,12 +16,6 @@ import "./landing.css";
 /** Opens the demo without credentials (see routes/demo.ts). */
 const DEMO_ENTRY = "/demo";
 const SAMPLE = { chapterId: "9-2", aufgabeId: "potenzregel-noch-eine" };
-const ICONS = {
-  map: Map,
-  sheet: FileText,
-  frames: Presentation,
-  training: RotateCcw,
-};
 
 export function meta() {
   return [
@@ -59,7 +46,13 @@ function WorksheetSample() {
           <span className="card__meta">{TEXT.sample.meta}</span>
           <Badge status="info">{TEXT.sample.badge}</Badge>
         </div>
-        <TaskSample chapter={chapter} aufgabeId={SAMPLE.aufgabeId} />
+        <div
+          className="landing-sample__viewport"
+          tabIndex={0}
+          aria-label="Interaktive Beispielaufgabe; Inhalt bei Bedarf scrollen"
+        >
+          <TaskSample chapter={chapter} aufgabeId={SAMPLE.aufgabeId} />
+        </div>
       </CardBody>
     </Card>
   );
@@ -71,12 +64,9 @@ function Hero() {
       <div className="landing-hero__margin" aria-hidden="true" />
       <div className="container container--wide landing-hero__grid">
         <div className="landing-hero__copy">
-          <p className="kicker muted">{TEXT.hero.kicker}</p>
           <h1 id="landing-title" className="display landing-hero__title">
             {TEXT.hero.titleBefore}{" "}
-            <span className="landing-gap">
-              <span className="landing-gap__word">{TEXT.hero.titleGap}</span>
-            </span>{" "}
+            <span className="landing-highlight">{TEXT.hero.titleGap}</span>{" "}
             {TEXT.hero.titleAfter}
           </h1>
           <p className="lead muted">{TEXT.hero.lead}</p>
@@ -89,7 +79,6 @@ function Hero() {
               {TEXT.hero.what}
             </TextLink>
           </div>
-          <p className="landing-hero__note">{TEXT.hero.note}</p>
         </div>
         <WorksheetSample />
       </div>
@@ -97,37 +86,41 @@ function Hero() {
   );
 }
 
-function Features() {
+function Overview() {
   return (
     <section
       id="funktionen"
       className="section landing-section"
       aria-labelledby="features-title"
     >
-      <div className="container container--wide stack stack-900">
-        <div className="section-head">
-          <p className="kicker">{TEXT.features.kicker}</p>
-          <h2 id="features-title" className="h2 serif">
-            {TEXT.features.title}
-          </h2>
-          <p className="lead muted">{TEXT.features.lead}</p>
+      <div className="container container--wide landing-overview">
+        <div className="landing-overview__context">
+          <div className="landing-overview__intro">
+            <h2 id="features-title" className="h2">
+              {TEXT.features.title}
+            </h2>
+            <p>{TEXT.features.lead}</p>
+          </div>
+          <div className="landing-overview__roadmap">
+            <h2 className="h2">{TEXT.project.title}</h2>
+            <p>{TEXT.project.body}</p>
+            <TextLink to="/roadmap" standalone>
+              {TEXT.project.link} →
+            </TextLink>
+          </div>
         </div>
-        <div className="columns-ruled">
-          {TEXT.features.items.map((feature) => {
-            const Icon = ICONS[feature.icon as keyof typeof ICONS];
-            return (
-              <div className="stack stack-300" key={feature.title}>
-                <div className="cluster landing-feature__top">
-                  <Icon className="icon icon--lg" aria-hidden="true" />
-                  {"badge" in feature && (
-                    <Badge status="info">{feature.badge}</Badge>
-                  )}
-                </div>
+        <div className="landing-overview__details">
+          {TEXT.features.items.map((feature) => (
+            <div className="landing-feature" key={feature.title}>
+              <div className="landing-feature__heading">
                 <h3 className="h3">{feature.title}</h3>
-                <p className="muted">{feature.text}</p>
+                {"badge" in feature && (
+                  <Badge status="info">{feature.badge}</Badge>
+                )}
               </div>
-            );
-          })}
+              <p className="muted">{feature.text}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
@@ -143,8 +136,7 @@ function Faq() {
     >
       <div className="container container--wide grid">
         <div className="lg-span-4 stack stack-300">
-          <p className="kicker">{TEXT.faq.kicker}</p>
-          <h2 id="faq-title" className="h2 serif">
+          <h2 id="faq-title" className="h2">
             {TEXT.faq.title}
           </h2>
           <p className="muted">
@@ -205,10 +197,9 @@ export default function Landing() {
   return (
     <div className="landing">
       <Hero />
-      <Features />
+      <Overview />
       <Faq />
       <Who />
-      <SiteFooter />
     </div>
   );
 }

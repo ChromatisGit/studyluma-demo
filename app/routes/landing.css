@@ -1,5 +1,4 @@
-/* Landing page. Only the hero decoration is custom; everything else uses
-   framework classes (section, section-head, columns-ruled, grid, Accordion). */
+/* Public homepage: a vivid hero followed by quieter product information. */
 
 .landing-hero {
   --karo-line: color-mix(
@@ -59,60 +58,30 @@
 .landing-hero__actions {
   --cluster-gap: var(--space-500) var(--space-700);
 }
-.landing-hero__note {
-  font-size: var(--text-sm);
-  color: var(--color-text-muted);
-}
-
-/* The gap in the headline fills in once, then gets highlighted. */
-.landing-gap {
-  display: inline-block;
-  min-width: 4.4em;
-  border-bottom: 0.07em dashed var(--color-border-control);
-  animation: landing-gap-settle 0.4s ease 2.2s forwards;
-}
-.landing-gap__word {
-  display: inline-block;
-  opacity: 0;
+.landing-highlight {
   font-style: italic;
   padding: 0 0.12em;
   margin: 0 -0.12em;
-  border-radius: 0.3em 0.15em 0.35em 0.2em;
   background-image: linear-gradient(
     var(--color-bg-accent),
     var(--color-bg-accent)
   );
   background-repeat: no-repeat;
   background-position: 0 86%;
-  background-size: 0% 60%;
-  animation:
-    landing-word-in 0.5s ease 0.7s forwards,
-    landing-mark 0.8s cubic-bezier(0.5, 0, 0.2, 1) 1.35s forwards;
+  background-size: 100% 60%;
+  animation: landing-highlight-in 700ms ease-out 150ms both;
 }
-@keyframes landing-word-in {
-  to {
-    opacity: 1;
+@keyframes landing-highlight-in {
+  from {
+    background-size: 0% 60%;
   }
-}
-@keyframes landing-mark {
   to {
     background-size: 100% 60%;
-  }
-}
-@keyframes landing-gap-settle {
-  to {
-    border-bottom-color: transparent;
   }
 }
 @media (prefers-reduced-motion: reduce) {
-  .landing-gap__word {
+  .landing-highlight {
     animation: none;
-    opacity: 1;
-    background-size: 100% 60%;
-  }
-  .landing-gap {
-    animation: none;
-    border-bottom-color: transparent;
   }
 }
 
@@ -123,12 +92,75 @@
 .landing-sample__top {
   justify-content: space-between;
 }
+.landing-sample__viewport {
+  min-width: 0;
+}
+@media (min-width: 768px) {
+  .landing-sample__viewport {
+    height: 27rem;
+    overflow: auto;
+    overscroll-behavior: contain;
+  }
+}
 
 .landing-section {
   border-top: var(--border-1) solid var(--color-border-subtle);
 }
-.landing-feature__top {
+.landing-overview {
+  display: grid;
+  gap: var(--space-800);
+}
+.landing-overview__context {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  gap: var(--space-900);
+  min-width: 0;
+}
+.landing-overview__intro {
+  max-width: 72ch;
+}
+.landing-overview__context h2 {
+  margin-bottom: var(--space-500);
+}
+.landing-overview__details {
+  min-width: 0;
+}
+.landing-feature {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-300);
+  padding-block: var(--space-500);
+  border-top: var(--border-1) solid var(--color-border-subtle);
+}
+.landing-feature:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+.landing-feature:last-child {
+  padding-bottom: 0;
+}
+.landing-feature__heading {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--space-300);
+}
+.landing-feature .h3 {
+  font-size: var(--text-lg);
+}
+.landing-overview__roadmap {
+  max-width: 72ch;
+}
+.landing-overview__roadmap p {
+  margin-bottom: var(--space-400);
+}
+@media (min-width: 1180px) {
+  .landing-overview {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: var(--space-1100);
+  }
 }
 
 .landing-who {

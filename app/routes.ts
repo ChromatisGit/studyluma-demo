@@ -9,9 +9,11 @@ const chapter = "courses/:courseId/chapters/:chapterId";
 
 /** Public pages of the demo, then the website's own routes from the package. */
 export default [
-  index("routes/landing.tsx"),
-  route("roadmap", "routes/roadmap.tsx"),
-  route("impressum", "routes/impressum.tsx"),
+  layout("PublicShell.tsx", [
+    index("routes/landing.tsx"),
+    route("roadmap", "routes/roadmap.tsx"),
+    route("impressum", "routes/impressum.tsx"),
+  ]),
   route("demo", "routes/demo.ts"),
   layout("routes/app/shell.tsx", [
     route("courses", "routes/app/home.tsx"),
