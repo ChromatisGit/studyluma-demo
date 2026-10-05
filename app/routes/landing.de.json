@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "title": "StudyLuma – Licht ins Unklare bringen",
+    "description": "Guter Unterricht hat eine Logik. StudyLuma macht sie sichtbar: mit klaren Lernwegen, interaktiven Arbeitsblättern und direkten Rückmeldungen."
+  },
+  "hero": {
+    "titleBefore": "Lernen heißt, Licht ins",
+    "titleGap": "Unklare",
+    "titleAfter": "zu bringen.",
+    "lead": "Guter Unterricht hat eine Logik. StudyLuma macht sie sichtbar: mit klaren Lernwegen, interaktiven Arbeitsblättern und direkten Rückmeldungen.",
+    "demo": "Demo öffnen",
+    "what": "Was ist StudyLuma?"
+  },
+  "sample": {
+    "label": "Beispiel aus einem Arbeitsblatt",
+    "meta": "Die Ableitungsregeln · Gruppe A: Potenzregel",
+    "badge": "Probier es aus"
+  },
+  "features": {
+    "title": "Was ist StudyLuma?",
+    "lead": "StudyLuma ist eine digitale Lernumgebung für den Unterricht. Inhalte werden in Lernwegen organisiert, Arbeitsblätter können interaktiv bearbeitet werden und Lehrkräfte steuern, welche Kapitel und Materialien für eine Klasse verfügbar sind. Ergänzend können Lernende Inhalte selbstständig üben und wiederholen.",
+    "items": [
+      {
+        "title": "Lernwege",
+        "text": "Unterrichtsreihen werden in Kapitel gegliedert. Lernende sehen, wo sie sich befinden und welche Inhalte als Nächstes folgen."
+      },
+      {
+        "title": "Interaktive Arbeitsblätter",
+        "text": "Erklärungen, Beispiele und Aufgaben werden direkt im Browser bearbeitet. Eingaben bleiben erhalten und Rückmeldungen können unmittelbar erfolgen."
+      },
+      {
+        "title": "Steuerung durch die Lehrkraft",
+        "text": "Lehrkräfte legen fest, welches Kapitel aktuell ist und welche Arbeitsblätter und Inhalte für die Klasse verfügbar sind."
+      },
+      {
+        "title": "Lerntraining",
+        "text": "Kurze Übungseinheiten unterstützen dabei, bereits behandelte Inhalte regelmäßig zu wiederholen.",
+        "badge": "In Arbeit"
+      }
+    ]
+  },
+  "project": {
+    "title": "Roadmap",
+    "body": "StudyLuma wird derzeit weiterentwickelt. Die Roadmap zeigt, welche Funktionen bereits umgesetzt sind, woran aktuell gearbeitet wird und welche nächsten Schritte geplant sind.",
+    "link": "Roadmap ansehen"
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "missing": "Deine Frage ist nicht dabei?",
+    "write": "Schreib eine E-Mail.",
+    "items": [
+      {
+        "id": "kosten",
+        "title": "Was kostet StudyLuma?",
+        "content": "Nichts. StudyLuma ist kostenlos und kommt ohne Werbung aus. Langfristig soll daraus eine offene Plattform werden, getragen von einem gemeinnützigen Verein."
+      },
+      {
+        "id": "einsatz",
+        "title": "Kann ich StudyLuma schon im eigenen Unterricht einsetzen?",
+        "content": "Noch nicht allgemein. StudyLuma wird derzeit im eigenen Unterricht erprobt. Ab 2027 ist eine Erprobung mit ausgewählten Lehrkräften geplant. Wer Interesse hat, kann sich gern melden."
+      },
+      {
+        "id": "faecher",
+        "title": "Für welche Fächer gibt es Inhalte?",
+        "content": "Vorbereitete Inhalte gibt es derzeit für Mathematik. Arbeitsblätter werden in Markdown geschrieben, deshalb ist StudyLuma grundsätzlich nicht auf ein Fach festgelegt."
+      },
+      {
+        "id": "email",
+        "title": "Brauchen Schülerinnen und Schüler eine E-Mail-Adresse?",
+        "content": "Nein. Lernende melden sich mit Benutzername und PIN an. Den Zugang zu einem Kurs bekommen sie über ihre Lehrkraft."
+      },
+      {
+        "id": "daten",
+        "title": "Welche Daten werden gespeichert?",
+        "content": "Gespeichert werden die Antworten auf den Arbeitsblättern, damit Lernende später weiterarbeiten können."
+      }
+    ]
+  },
+  "who": {
+    "title": "Wer steckt dahinter?",
+    "text": "StudyLuma ist ein Nebenprojekt von Christian Holst, angehender Lehrer für Mathematik und Informatik an beruflichen Schulen. Es ist aus der eigenen Unterrichtsvorbereitung entstanden.",
+    "photoAlt": "Christian Holst",
+    "feedback": "Feedback senden",
+    "github": "GitHub",
+    "githubUrl": "https://github.com/ChromatisGit/studyluma"
+  }
+}

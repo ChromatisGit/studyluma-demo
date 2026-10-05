@@ -1,0 +1,70 @@
+/* The timeline is the shared Linie primitive (studyluma/modules/courses); this
+   file only styles the page and the text of each milestone. */
+.demo-roadmap {
+  padding-block: var(--space-800) var(--space-1100);
+}
+.demo-roadmap-inner {
+  max-width: calc(var(--container-reading) + 2 * var(--page-gutter));
+}
+.demo-roadmap-back {
+  margin-bottom: var(--space-700);
+}
+.demo-roadmap-header {
+  padding: var(--space-600) 0 var(--space-900);
+}
+.demo-roadmap-header h1 {
+  margin: 0 0 var(--space-500);
+  text-wrap: pretty;
+}
+.demo-roadmap-intro {
+  max-width: 62ch;
+  color: var(--color-text-muted);
+  font-size: var(--text-lg);
+}
+.roadmap-step {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-400);
+  padding-bottom: var(--space-900);
+}
+.roadmap-step__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-200);
+  min-width: 0;
+}
+.roadmap-step__date {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-300);
+  min-height: 2.5rem;
+  margin: 0;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-muted);
+}
+.roadmap-step__title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  line-height: var(--leading-heading);
+}
+.linie__row--current .roadmap-step__title {
+  color: var(--color-link);
+}
+.roadmap-step__text {
+  max-width: 62ch;
+  margin: 0;
+}
+.roadmap-step__list {
+  max-width: 62ch;
+  margin: 0;
+  padding-left: 1.25em;
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+  list-style: disc;
+}
+.roadmap-step__list li + li {
+  margin-top: var(--space-100);
+}

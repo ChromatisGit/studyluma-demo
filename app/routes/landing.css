@@ -1,0 +1,186 @@
+/* Public homepage: a vivid hero followed by quieter product information. */
+
+.landing-hero {
+  --karo-line: color-mix(
+    in srgb,
+    var(--color-action-primary-bg) 10%,
+    transparent
+  );
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-bg);
+  background-image:
+    linear-gradient(to right, var(--karo-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--karo-line) 1px, transparent 1px);
+  background-size: 1.5rem 1.5rem;
+  background-position: -1px -1px;
+}
+/* The Korrekturrand of a Karoheft, in violet instead of red */
+.landing-hero__margin {
+  position: absolute;
+  inset-block: 0;
+  left: clamp(0.625rem, 2.2vw, 2rem);
+  width: var(--border-2);
+  background: color-mix(
+    in srgb,
+    var(--color-action-primary-bg) 30%,
+    var(--color-bg)
+  );
+}
+.landing-hero__grid {
+  position: relative;
+  display: grid;
+  gap: var(--space-1000);
+  align-items: center;
+  padding-block: var(--space-1000) var(--space-1200);
+}
+@media (min-width: 1024px) {
+  .landing-hero__grid {
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+    gap: var(--space-1100);
+  }
+}
+.landing-hero__copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-600);
+  text-align: left;
+}
+/* .display balances its lines (text-wrap: balance), which reads like
+   justified text in a big left-aligned headline. Ragged instead: */
+.landing-hero__title {
+  max-width: 17ch;
+  text-wrap: pretty;
+  letter-spacing: -0.025em;
+  line-height: var(--leading-display-tight);
+}
+.landing-hero__actions {
+  --cluster-gap: var(--space-500) var(--space-700);
+}
+.landing-highlight {
+  font-style: italic;
+  padding: 0 0.12em;
+  margin: 0 -0.12em;
+  background-image: linear-gradient(
+    var(--color-bg-accent),
+    var(--color-bg-accent)
+  );
+  background-repeat: no-repeat;
+  background-position: 0 86%;
+  background-size: 100% 60%;
+  animation: landing-highlight-in 700ms ease-out 150ms both;
+}
+@keyframes landing-highlight-in {
+  from {
+    background-size: 0% 60%;
+  }
+  to {
+    background-size: 100% 60%;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .landing-highlight {
+    animation: none;
+  }
+}
+
+/* A real task from a worksheet, live: answer it, check it, ask for help */
+.landing-sample .card__body {
+  gap: var(--space-400);
+}
+.landing-sample__top {
+  justify-content: space-between;
+}
+.landing-sample__viewport {
+  min-width: 0;
+}
+@media (min-width: 768px) {
+  .landing-sample__viewport {
+    height: 27rem;
+    overflow: auto;
+    overscroll-behavior: contain;
+  }
+}
+
+.landing-section {
+  border-top: var(--border-1) solid var(--color-border-subtle);
+}
+.landing-overview {
+  display: grid;
+  gap: var(--space-800);
+}
+.landing-overview__context {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--space-900);
+  min-width: 0;
+}
+.landing-overview__intro {
+  max-width: 72ch;
+}
+.landing-overview__context h2 {
+  margin-bottom: var(--space-500);
+}
+.landing-overview__details {
+  min-width: 0;
+}
+.landing-feature {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-300);
+  padding-block: var(--space-500);
+  border-top: var(--border-1) solid var(--color-border-subtle);
+}
+.landing-feature:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+.landing-feature:last-child {
+  padding-bottom: 0;
+}
+.landing-feature__heading {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--space-300);
+}
+.landing-feature .h3 {
+  font-size: var(--text-lg);
+}
+.landing-overview__roadmap {
+  max-width: 72ch;
+}
+.landing-overview__roadmap p {
+  margin-bottom: var(--space-400);
+}
+@media (min-width: 1180px) {
+  .landing-overview {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: var(--space-1100);
+  }
+}
+
+.landing-who {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-600) var(--space-700);
+}
+.landing-who__photo {
+  flex: none;
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: var(--radius-round);
+  object-fit: cover;
+  background: var(--color-bg-subtle);
+}
+.landing-who__text {
+  flex: 1 1 28rem;
+  min-width: 0;
+}
+.landing-who__links {
+  --cluster-gap: var(--space-200) var(--space-600);
+}
