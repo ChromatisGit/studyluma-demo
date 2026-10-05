@@ -1,0 +1,18 @@
+{
+  "contact": "mailto:christian.contactmail@gmail.com",
+  "footer": {
+    "copyright": "© {year} Christian Holst",
+    "tagline": "Gebaut mit 💜 fürs Lernen",
+    "impressum": "Impressum"
+  },
+  "back": "Zurück zur Startseite",
+  "impressum": {
+    "metaTitle": "Impressum — StudyLuma",
+    "metaDescription": "Impressum und Kontaktangaben von StudyLuma.",
+    "title": "Impressum",
+    "project": "StudyLuma ist ein nicht-kommerzielles Bildungs- und Open-Source-Entwicklungsprojekt von Christian Holst.",
+    "contact": "Kontakt:",
+    "email": "christian.contactmail@gmail.com",
+    "address": "Meine private Wohnanschrift wird aus Gründen des persönlichen Schutzes nicht öffentlich angegeben. Für berechtigte rechtliche Anliegen kann eine ladungsfähige Anschrift per E-Mail angefragt werden."
+  }
+}
