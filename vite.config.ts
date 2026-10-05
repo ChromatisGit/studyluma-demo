@@ -1,4 +1,5 @@
 import { reactRouter } from "@react-router/dev/vite";
+import { fileURLToPath } from "node:url";
 import { defineConfig } from "vite";
 
 // The website package and the framework ship TypeScript source. Vite has
@@ -7,6 +8,14 @@ import { defineConfig } from "vite";
 // second copy of the framework under studyluma; dedupe keeps one in use.
 export default defineConfig({
   plugins: [reactRouter()],
+  server: {
+    fs: {
+      allow: [
+        fileURLToPath(new URL(".", import.meta.url)),
+        fileURLToPath(new URL("../studyluma-website", import.meta.url)),
+      ],
+    },
+  },
   resolve: {
     dedupe: [
       "react",

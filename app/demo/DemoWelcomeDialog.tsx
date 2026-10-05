@@ -6,6 +6,7 @@ import TEXT from "./demo.de.json";
 export interface DemoWelcomeDialogProps {
   open: boolean;
   onClose: () => void;
+  onTeacherSubmit: () => void;
   courseTitle: string;
 }
 
@@ -43,6 +44,7 @@ function Choice({
 export function DemoWelcomeDialog({
   open,
   onClose,
+  onTeacherSubmit,
   courseTitle,
 }: DemoWelcomeDialogProps) {
   const location = useLocation();
@@ -67,7 +69,7 @@ export function DemoWelcomeDialog({
             current
           />
         </form>
-        <Form method="post" action="/viewer" onSubmit={onClose}>
+        <Form method="post" action="/viewer" onSubmit={onTeacherSubmit}>
           <input type="hidden" name="role" value="teacher" />
           <input type="hidden" name="redirectTo" value={location.pathname} />
           <Choice
