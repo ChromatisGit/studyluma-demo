@@ -20,7 +20,7 @@
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
     "react-router": "^7.9.0",
-    "studyluma": "git+https://github.com/ChromatisGit/studyluma.git#1c2b32555503ba3f8596d3c56502772b8bab95c6"
+    "studyluma": "git+https://github.com/ChromatisGit/studyluma.git#239c923"
   },
   "devDependencies": {
     "@react-router/dev": "^7.9.0",
