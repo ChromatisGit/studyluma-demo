@@ -746,8 +746,6 @@
 
     "send/debug": ["debug@2.6.9", "", { "dependencies": { "ms": "2.0.0" } }, "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA=="],
 
-    "studyluma/@chromatis/base": ["@chromatis/base@github:ChromatisGit/chromatis-base-framework#1a58a4e", { "dependencies": { "smol-toml": "^1.3.4" }, "peerDependencies": { "lucide-react": ">=0.400.0", "react": ">=19.0.0", "react-dom": ">=19.0.0", "react-router": ">=7.0.0" } }, "ChromatisGit-chromatis-base-framework-1a58a4e"],
-
     "vite-node/pathe": ["pathe@2.0.3", "", {}, "sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w=="],
 
     "body-parser/debug/ms": ["ms@2.0.0", "", {}, "sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A=="],
