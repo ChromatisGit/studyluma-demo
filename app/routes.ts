@@ -18,7 +18,15 @@ export default [
   layout("routes/app/shell.tsx", [
     route("courses", "routes/app/home.tsx"),
     route("courses/:courseId", "routes/app/course.tsx"),
-    route("courses/:courseId/control", "routes/app/control.tsx"),
+    route("courses/:courseId/overview", "routes/app/course.tsx", {
+      id: "course-overview",
+    }),
+    route("courses/:courseId/course-structure", "routes/app/course.tsx", {
+      id: "course-structure",
+    }),
+    route("courses/:courseId/content", "routes/app/course.tsx", {
+      id: "course-content",
+    }),
     route(chapter, "routes/app/chapter.tsx"),
     route(`${chapter}/sheets/:sheetId`, "routes/app/sheet.tsx"),
     route(`${chapter}/challenges`, "routes/app/challenges.tsx"),

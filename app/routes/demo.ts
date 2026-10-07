@@ -1,5 +1,5 @@
 import { redirect } from "react-router";
-import { listCourses } from "studyluma/modules/courses";
+import { courseOverviewPath, listCourses } from "studyluma/modules/courses";
 import { roomCookie } from "studyluma/modules/viewer";
 import { viewerCookie } from "../demo/viewerCookie";
 
@@ -11,9 +11,7 @@ import { viewerCookie } from "../demo/viewerCookie";
  */
 export function loader() {
   const course = listCourses()[0];
-  const target = course
-    ? `/courses/${encodeURIComponent(course.id)}`
-    : "/courses";
+  const target = course ? courseOverviewPath(course.id) : "/courses";
   const headers = new Headers();
   headers.append("Set-Cookie", viewerCookie("teacher"));
   headers.append("Set-Cookie", roomCookie());
