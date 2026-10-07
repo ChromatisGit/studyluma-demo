@@ -3,9 +3,6 @@
 .demo-roadmap {
   padding-block: var(--space-800) var(--space-1100);
 }
-.demo-roadmap-inner {
-  max-width: calc(var(--container-reading) + 2 * var(--page-gutter));
-}
 .demo-roadmap-back {
   margin-bottom: var(--space-700);
 }

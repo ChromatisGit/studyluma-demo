@@ -32,7 +32,6 @@ export default function Roadmap() {
     <div className="demo-roadmap">
       <div className="container demo-roadmap-inner">
         <header className="demo-roadmap-header">
-          <p className="kicker">Das Projekt</p>
           <h1 className="display">{TEXT.page.title}</h1>
           <p className="demo-roadmap-intro">{TEXT.page.intro}</p>
         </header>

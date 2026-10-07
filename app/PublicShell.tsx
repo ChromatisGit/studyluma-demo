@@ -1,4 +1,4 @@
-import { Outlet } from "react-router";
+import { Outlet, useLocation } from "react-router";
 import { House, Map, Play } from "lucide-react";
 import type { NavigationItem } from "@chromatis/base/ui";
 import { StudyShell } from "studyluma/app/StudyShell";
@@ -22,8 +22,14 @@ const navigation: readonly NavigationItem[] = [
 
 /** Public pages use the same sidebar and phone menu as the Demo course pages. */
 export default function PublicShell() {
+  const { pathname } = useLocation();
   return (
-    <StudyShell navigation={navigation} footer={<SiteFooter />}>
+    <StudyShell
+      navigation={navigation}
+      pageWidth={pathname === "/roadmap" ? "wide" : "default"}
+      sidebarFooter={{ full: null, compact: null }}
+      footer={<SiteFooter />}
+    >
       <Outlet />
     </StudyShell>
   );

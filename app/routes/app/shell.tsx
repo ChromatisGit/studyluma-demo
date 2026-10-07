@@ -20,5 +20,7 @@ const publicNavigation: readonly NavigationItem[] = [
 ];
 
 export default function DemoShell() {
-  return <ShellLayout extraNavigation={publicNavigation} />;
+  return (
+    <ShellLayout extraNavigation={publicNavigation} accountName="Lehrer" />
+  );
 }
