@@ -17,7 +17,7 @@
     "check": "bun run typecheck && bun run lint && bun run format:check"
   },
   "dependencies": {
-    "@chromatis/base": "git+https://github.com/ChromatisGit/chromatis-base-framework.git#d775734f84497697e12fcab1f7c2797c393bd6cb",
+    "@chromatis/base": "git+https://github.com/ChromatisGit/chromatis-base-framework.git#d551f09302d8ee87f76416ad2f795ee0bd188928",
     "@react-router/node": "^7.9.0",
     "@react-router/serve": "^7.9.0",
     "isbot": "^5.1.0",
@@ -25,7 +25,7 @@
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
     "react-router": "^7.9.0",
-    "studyluma": "file:../studyluma-website"
+    "studyluma": "git+https://github.com/ChromatisGit/studyluma.git#4e34ffd9e0213ec5eaed8f1fa969c9a07158a68f"
   },
   "devDependencies": {
     "@react-router/dev": "^7.9.0",
