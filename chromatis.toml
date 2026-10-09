@@ -1,0 +1,4 @@
+name = "studyluma-demo"
+publicUrl = "https://studyluma.org"
+target = "cloudflare"
+postgresql = false

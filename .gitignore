@@ -6,3 +6,6 @@
 !/.env.example
 /.wrangler/
 *.tsbuildinfo
+/react-router.config.ts
+/.chromatis/*
+!/.chromatis/runtime-migrations.json

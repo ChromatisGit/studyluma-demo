@@ -1,4 +1,4 @@
-import type { ViewerRole } from "studyluma/modules/viewer";
+import type { ViewerRole } from "studyluma/modules/classroom";
 
 /** The demo's role switch uses the cookie read by the website package. */
 export function viewerCookie(role: ViewerRole): string {

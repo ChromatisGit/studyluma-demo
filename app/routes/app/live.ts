@@ -1,1 +1,1 @@
-export { action, loader } from "studyluma/app/routes/live";
+export { action, loader } from "studyluma/app/routes/classroom";

@@ -1,4 +1,4 @@
-import { Link, useLoaderData } from "react-router";
+import { Link, useLoaderData, type LoaderFunctionArgs } from "react-router";
 import { ArrowRight } from "lucide-react";
 import {
   Accordion,
@@ -8,14 +8,14 @@ import {
   TextLink,
   buttonClassName,
 } from "@chromatis/base/ui";
-import { getWorksheetChapter, TaskSample } from "studyluma/modules/worksheets";
+import { sampleTask } from "studyluma/app/sample.server";
+import { TaskSample } from "studyluma/modules/worksheets";
 import SITE from "../site.de.json";
 import TEXT from "./landing.de.json";
 import "./landing.css";
 
 /** Opens the demo without credentials (see routes/demo.ts). */
 const DEMO_ENTRY = "/demo";
-const SAMPLE = { chapterId: "9-2", aufgabeId: "potenzregel-noch-eine" };
 
 export function meta() {
   return [
@@ -24,13 +24,14 @@ export function meta() {
   ];
 }
 
-export function loader() {
-  return { chapter: getWorksheetChapter(SAMPLE.chapterId, "student") ?? null };
+export function loader({ request }: LoaderFunctionArgs) {
+  const { chapter, aufgabeId } = sampleTask(request);
+  return { chapter: chapter ?? null, aufgabeId };
 }
 
 /** A real task from the demo course: answer it, check it, ask for help. */
 function WorksheetSample() {
-  const { chapter } = useLoaderData<typeof loader>();
+  const { chapter, aufgabeId } = useLoaderData<typeof loader>();
   if (!chapter) {
     return null;
   }
@@ -51,7 +52,7 @@ function WorksheetSample() {
           tabIndex={0}
           aria-label="Interaktive Beispielaufgabe; Inhalt bei Bedarf scrollen"
         >
-          <TaskSample chapter={chapter} aufgabeId={SAMPLE.aufgabeId} />
+          <TaskSample chapter={chapter} aufgabeId={aufgabeId} />
         </div>
       </CardBody>
     </Card>

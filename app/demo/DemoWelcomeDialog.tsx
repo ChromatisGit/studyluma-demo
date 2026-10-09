@@ -22,7 +22,7 @@ function Choice({
 }) {
   return (
     <Card
-      kind="action"
+      kind="content"
       orientation="horizontal"
       border={current ? "strong" : "default"}
     >

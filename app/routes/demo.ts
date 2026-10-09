@@ -1,6 +1,6 @@
-import { redirect } from "react-router";
-import { courseOverviewPath, listCourses } from "studyluma/modules/courses";
-import { roomCookie } from "studyluma/modules/viewer";
+import { redirect, type LoaderFunctionArgs } from "react-router";
+import { loadSite } from "studyluma/app/site.server";
+import { courseOverviewPath } from "studyluma/modules/courses";
 import { viewerCookie } from "../demo/viewerCookie";
 
 /**
@@ -9,11 +9,10 @@ import { viewerCookie } from "../demo/viewerCookie";
  * their own browser, and each visitor gets their own room for the live
  * quiz, so visitors can't change each other's demo.
  */
-export function loader() {
-  const course = listCourses()[0];
+export async function loader({ request }: LoaderFunctionArgs) {
+  const course = (await loadSite(request)).courses[0];
   const target = course ? courseOverviewPath(course.id) : "/courses";
   const headers = new Headers();
   headers.append("Set-Cookie", viewerCookie("teacher"));
-  headers.append("Set-Cookie", roomCookie());
   return redirect(target, { headers });
 }

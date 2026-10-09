@@ -1,1 +1,7 @@
-export { default, ErrorBoundary, Layout, meta } from "studyluma/app/root";
+export {
+  default,
+  ErrorBoundary,
+  Layout,
+  loader,
+  meta,
+} from "studyluma/app/root";

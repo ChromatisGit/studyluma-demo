@@ -1,8 +1,11 @@
 import { House, Map } from "lucide-react";
 import type { NavigationItem } from "@chromatis/base/ui";
-import ShellLayout from "studyluma/app/routes/shell";
+import type { LoaderFunctionArgs } from "react-router";
+import ShellLayout from "studyluma/app/StudyShellLayout";
 
-export { loader } from "studyluma/app/routes/shell";
+export async function loader(args: LoaderFunctionArgs) {
+  return (await import("studyluma/app/routes/shell")).loader(args);
+}
 
 const publicNavigation: readonly NavigationItem[] = [
   {

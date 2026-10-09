@@ -35,4 +35,6 @@ export default [
   route(`${chapter}/lesson`, "routes/app/lesson.tsx"),
   route(`${chapter}/lesson/projector`, "routes/app/projector.tsx"),
   route("live", "routes/app/live.ts"),
+  route("content/assets/:assetId", "routes/app/asset.ts"),
+  route("api/check", "routes/app/check.ts"),
 ] satisfies RouteConfig;

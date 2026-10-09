@@ -1,5 +1,5 @@
 import { redirect, type ActionFunctionArgs } from "react-router";
-import { isViewerRole } from "studyluma/modules/viewer";
+import { isViewerRole } from "studyluma/modules/classroom";
 import { viewerCookie } from "../../demo/viewerCookie";
 
 export function loader() {
