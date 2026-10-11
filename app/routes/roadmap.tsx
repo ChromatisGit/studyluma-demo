@@ -4,7 +4,7 @@ import {
   LinieStop,
   Pictogram,
   trackFor,
-} from "studyluma/modules/courses";
+} from "@studyluma/app/modules/courses";
 import TEXT from "./roadmap.de.json";
 import "./roadmap.css";
 

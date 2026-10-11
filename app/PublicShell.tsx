@@ -1,7 +1,7 @@
 import { Outlet, useLocation } from "react-router";
 import { House, Map, Play } from "lucide-react";
 import type { NavigationItem } from "@chromatis/base/ui";
-import { StudyShell } from "studyluma/app/StudyShell";
+import { StudyShell } from "@studyluma/app/app/StudyShell";
 import { SiteFooter } from "./SiteFooter";
 
 const navigation: readonly NavigationItem[] = [

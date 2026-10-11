@@ -8,8 +8,8 @@ import {
   TextLink,
   buttonClassName,
 } from "@chromatis/base/ui";
-import { sampleTask } from "studyluma/app/sample.server";
-import { TaskSample } from "studyluma/modules/worksheets";
+import { TaskSample } from "@studyluma/app/modules/worksheets";
+import { sampleTask } from "../sample.server";
 import SITE from "../site.de.json";
 import TEXT from "./landing.de.json";
 import "./landing.css";
@@ -24,8 +24,8 @@ export function meta() {
   ];
 }
 
-export function loader({ request }: LoaderFunctionArgs) {
-  const { chapter, aufgabeId } = sampleTask(request);
+export async function loader({ request }: LoaderFunctionArgs) {
+  const { chapter, aufgabeId } = await sampleTask(request);
   return { chapter: chapter ?? null, aufgabeId };
 }
 

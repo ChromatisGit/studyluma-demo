@@ -1,0 +1,15 @@
+#:schema ../.chromatis/schemas/app.schema.json
+[deployment]
+target = "cloudflare"
+domain = "studyluma.org"
+# The existing Cloudflare Worker; keep it so the deployment is not renamed.
+name = "studyluma-demo"
+
+# The Demo runs no Classroom Sessions (a later phase makes it host the session
+# gateway). The classroom module's routes, runtime and server hook drop out.
+[modules]
+disabled = ["classroom"]
+
+# The Demo's own landing page replaces the package's index redirect.
+[routes]
+omit = ["/"]
