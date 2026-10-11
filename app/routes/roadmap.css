@@ -1,4 +1,4 @@
-/* The timeline is the shared Linie primitive (studyluma/modules/courses); this
+/* The timeline is the shared Linie primitive (@studyluma/app/modules/courses); this
    file only styles the page and the text of each milestone. */
 .demo-roadmap {
   padding-block: var(--space-800) var(--space-1100);
