@@ -1,0 +1,15 @@
+#:schema ../../../../../.chromatis/schemas/catalog.graphic.schema.json
+[achsen]
+x = [-4, 4]
+y = [-6, 8]
+
+[[graph]]
+term = "y = 2x + 1"
+name = "f"
+
+[[punkt]]
+position = [0, -3]
+name = "P"
+
+[eingabe]
+typ = "funktion"
