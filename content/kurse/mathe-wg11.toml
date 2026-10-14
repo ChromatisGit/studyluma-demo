@@ -1,5 +1,6 @@
 #:schema ../../.chromatis/schemas/catalog.course.schema.json
-titel = "Beispielkurs"
+titel = "Mathematik WG-11"
+aktuell = "rechengesetze-gleichungen/02-bruchrechnung"
 
 [themen]
 rechengesetze-gleichungen = ["01-gleichungen", "02-bruchrechnung", "03-potenzen-binomische-formeln"]

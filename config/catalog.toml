@@ -2,4 +2,4 @@
 # Which content the catalog is built from and which courses the Demo publishes.
 [default]
 content = "content"
-courses = ["beispielkurs"]
+courses = ["mathe-wg11"]

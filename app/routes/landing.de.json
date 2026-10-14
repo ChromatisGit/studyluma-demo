@@ -13,8 +13,8 @@
   },
   "sample": {
     "label": "Beispiel aus einem Arbeitsblatt",
-    "meta": "Gleichungen und Umformungen · Checkpoint",
-    "badge": "Probier es aus"
+    "badge": "Probier es aus",
+    "viewportLabel": "Interaktive Beispielaufgabe; Inhalt bei Bedarf scrollen"
   },
   "features": {
     "title": "Was ist StudyLuma?",

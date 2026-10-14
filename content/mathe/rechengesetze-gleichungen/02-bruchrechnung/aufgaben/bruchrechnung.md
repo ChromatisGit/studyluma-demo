@@ -62,6 +62,29 @@ $4/6 = 2/3$ und $10/15 = 2/3$. Dagegen ist $6/8 = 3/4$, und $5/6$ lässt sich ni
 
 # "Grundrechenarten mit Brüchen"
 
+## Antwort: "Brüche addieren"
+
+Berechne $1/2 + 1/3$.
+
+::antwort
+5/6
+
+::fehler
+2/5: Zähler und Nenner dürfen nicht einzeln addiert werden. Bringe die Brüche zuerst auf denselben Nenner.
+
+::tipp
+Welche Zahl ist ein Vielfaches von $2$ und von $3$?
+
+[Brüche addieren und subtrahieren](../inhalt.md#brüche-addieren-und-subtrahieren)
+
+::schritte 3
+- Gemeinsamer Nenner: ((6))
+- Brüche erweitern, neue Zähler: ((3)) und ((2))
+- Ergebnis angeben
+
+::loesung
+Der gemeinsame Nenner ist $6$: $1/2 = 3/6$ und $1/3 = 2/6$. Also gilt $1/2 + 1/3 = 3/6 + 2/6 = 5/6$.
+
 ## Antwort: "Addieren"
 
 Berechne $2/3 + 1/6$ und kürze das Ergebnis, falls möglich.

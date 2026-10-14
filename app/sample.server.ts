@@ -1,11 +1,14 @@
 import { loadCourses, loadSite } from "@studyluma/app/app/site.server";
 import { sheetsFor } from "@studyluma/app/modules/courses";
 
+/** The task the landing page shows, picked by its title in the demo course. */
+const SAMPLE_TASK_TITLE = "Brüche addieren";
+
 /**
- * The landing page's sample: the first answerable task of the first course.
- * It always comes from the redacted student catalog, whoever asks (a request
- * that only says "student" has no Classroom Session, so nothing is released),
- * while the course order is the visitor's own.
+ * The landing page's sample: a task with Fehler feedback, a Tipp and Schritte
+ * (see content/.../02-bruchrechnung). It always comes from the redacted student
+ * catalog, whoever asks (a request that only says "student" has no Classroom
+ * Session, so nothing is released), while the course order is the visitor's own.
  */
 export async function sampleTask(request: Request) {
   const student = new Request(request.url, {
@@ -26,12 +29,7 @@ export async function sampleTask(request: Request) {
             for (const item of section.items) {
               if (
                 item.type === "task" &&
-                item.task.items.some(
-                  (child) =>
-                    child.type === "part" &&
-                    (child.part.type === "Antwort" ||
-                      child.part.type === "Einsetzen"),
-                )
+                item.task.title === SAMPLE_TASK_TITLE
               ) {
                 return { chapter: data, aufgabeId: item.task.id };
               }

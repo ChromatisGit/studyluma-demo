@@ -86,20 +86,25 @@
 }
 
 /* A real task from a worksheet, live: answer it, check it, ask for help */
-.landing-sample .card__body {
-  gap: var(--space-400);
+.landing-sample {
+  position: relative;
 }
-.landing-sample__top {
-  justify-content: space-between;
+/* Sits on the card's top border, so the task keeps the whole card */
+.landing-sample__badge {
+  position: absolute;
+  top: 0;
+  right: var(--space-400);
+  transform: translateY(-50%);
 }
 .landing-sample__viewport {
   min-width: 0;
 }
 @media (min-width: 768px) {
   .landing-sample__viewport {
-    height: 27rem;
+    height: 31rem;
     overflow: auto;
     overscroll-behavior: contain;
+    padding-right: var(--space-300);
   }
 }
 
