@@ -1,13 +1,13 @@
 #:schema ../.chromatis/schemas/shell.schema.json
-# The Demo's public pages in the sidebar, and a demo account link instead of
-# the login button (the visitor is a teacher without credentials).
 [[navigation]]
 label = "Startseite"
 href = "/"
+icon = "house"
 
 [[navigation]]
 label = "Roadmap"
 href = "/roadmap"
+icon = "map"
 
 [account]
 label = "Lehrer"

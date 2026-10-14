@@ -2,7 +2,4 @@
 # Which content the catalog is built from and which courses the Demo publishes.
 [default]
 content = "content"
-# DECISION PENDING: list the ids of the courses (kurse/<id>.yml) that make up
-# the public demo. The Demo has no curated course source yet, so nothing can be
-# published; the catalog module requires at least one course.
-courses = []
+courses = ["mathe-wg11"]

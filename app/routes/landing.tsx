@@ -42,15 +42,14 @@ function WorksheetSample() {
       border="default"
       aria-label={TEXT.sample.label}
     >
+      <Badge status="info" className="landing-sample__badge">
+        {TEXT.sample.badge}
+      </Badge>
       <CardBody>
-        <div className="cluster landing-sample__top">
-          <span className="card__meta">{TEXT.sample.meta}</span>
-          <Badge status="info">{TEXT.sample.badge}</Badge>
-        </div>
         <div
           className="landing-sample__viewport"
           tabIndex={0}
-          aria-label="Interaktive Beispielaufgabe; Inhalt bei Bedarf scrollen"
+          aria-label={TEXT.sample.viewportLabel}
         >
           <TaskSample chapter={chapter} aufgabeId={aufgabeId} />
         </div>

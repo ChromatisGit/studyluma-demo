@@ -1,0 +1,33 @@
+#:schema ../../../../../.chromatis/schemas/catalog.graphic.schema.json
+[achsen]
+x = [-8, 8]
+y = [-12, 12]
+
+[[graph]]
+term = "y = x^2"
+name = "g"
+
+[[graph]]
+term = "y = a x^2 + b x + c"
+name = "f"
+
+[[parameter]]
+name = "a"
+von = -3
+bis = 3
+schritt = 0.5
+start = 1
+
+[[parameter]]
+name = "b"
+von = -6
+bis = 6
+schritt = 1
+start = 0
+
+[[parameter]]
+name = "c"
+von = -5
+bis = 5
+schritt = 1
+start = 0

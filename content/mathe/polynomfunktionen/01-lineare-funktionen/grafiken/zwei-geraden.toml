@@ -1,0 +1,40 @@
+#:schema ../../../../../.chromatis/schemas/catalog.graphic.schema.json
+[achsen]
+x = [-6, 6]
+y = [-8, 8]
+
+[[graph]]
+term = "y = a x + b"
+name = "f"
+
+[[graph]]
+term = "y = c x + d"
+name = "g"
+
+[[parameter]]
+name = "a"
+von = -4
+bis = 4
+schritt = 0.5
+start = 1
+
+[[parameter]]
+name = "b"
+von = -5
+bis = 5
+schritt = 0.5
+start = 1
+
+[[parameter]]
+name = "c"
+von = -4
+bis = 4
+schritt = 0.5
+start = -1
+
+[[parameter]]
+name = "d"
+von = -5
+bis = 5
+schritt = 0.5
+start = 3

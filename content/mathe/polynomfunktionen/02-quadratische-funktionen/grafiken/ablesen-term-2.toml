@@ -1,0 +1,7 @@
+#:schema ../../../../../.chromatis/schemas/catalog.graphic.schema.json
+[achsen]
+x = [-3, 4]
+y = [-5, 6]
+
+[[graph]]
+term = "y = 2 x^2 - 4 x - 1"
