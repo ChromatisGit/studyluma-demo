@@ -75,12 +75,6 @@ x = -1: Beim Subtrahieren gilt das Minus für die **ganze** Klammer $(x-1)$. Set
 ::tipp
 Multipliziere die Gleichung mit dem gemeinsamen Nenner $12$.
 
-::schritte
-- Gleichung mit $12$ multiplizieren
-- Klammern ausmultiplizieren, dabei das Minus beachten
-- Gleichartige Terme zusammenfassen
-- Nach $x$ auflösen
-
 ::loesung
 Mit $12$ multipliziert: $4(x+1) - 3(x-1) = 12$. Also $4x + 4 - 3x + 3 = 12$, das heißt $x + 7 = 12$ und $x = 5$. Probe: $6/3 - 4/4 = 2 - 1 = 1$. ✓
 

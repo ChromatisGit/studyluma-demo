@@ -134,10 +134,8 @@ Setze $f(x) = g(x)$ und löse die Gleichung. Wie lautet die x-Koordinate des Sch
 ::antwort
 x = 2
 
-::schritte 3
-- Gleichsetzen: $x + 3 = 3x - 1$
-- Alle Teile mit $x$ auf eine Seite und die Zahlen auf die andere: $4$ = ((2)) $x$
-- Durch die Zahl vor dem $x$ teilen: $x$ = ((2))
+::schritte
+- Gleichsetzen: $x + 3 = 3x - 1$. Alle Teile mit $x$ auf eine Seite und die Zahlen auf die andere: $4$ = ((2)) $x$
 
 ::tipp
 Subtrahiere auf beiden Seiten $x$ und addiere dann $1$.

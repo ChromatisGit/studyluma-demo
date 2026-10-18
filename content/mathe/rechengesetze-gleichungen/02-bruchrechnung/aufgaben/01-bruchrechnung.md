@@ -60,12 +60,11 @@ $2/3 + 3/4 - 1/2$
 ::tipp
 Suche einen gemeinsamen Nenner für $3$, $4$ und $2$.
 
-::schritte 3
+::schritte
 - Hauptnenner bestimmen: ((12))
 - $2/3$ auf Zwölftel erweitern, der Zähler ist dann ((8))
 - $3/4$ auf Zwölftel erweitern, der Zähler ist dann ((9))
 - $1/2$ auf Zwölftel erweitern, der Zähler ist dann ((6))
-- Zähler verrechnen und das Ergebnis angeben
 
 ::loesung
 Hauptnenner $12$: $2/3 + 3/4 - 1/2 = 8/12 + 9/12 - 6/12 = (8 + 9 - 6)/12 = 11/12$
@@ -105,11 +104,6 @@ $5/6 : 10/3$
 Wie lautet der Kehrbruch von $10/3$?
 
 [Brüche dividieren](../inhalt.md#brüche-dividieren)
-
-::schritte 2
-- Kehrbruch des zweiten Bruchs bilden
-- Mit dem Kehrbruch multiplizieren
-- Das Ergebnis kürzen
 
 ::loesung
 $5/6 : 10/3 = 5/6 * 3/10 = 15/60 = 1/4$
@@ -168,10 +162,6 @@ Klammere im Zähler zuerst $5$ aus.
 
 [Brüche mit Variablen vereinfachen](../inhalt.md#brüche-mit-variablen-vereinfachen)
 
-::schritte 2
-- Im Zähler den Faktor $5$ ausklammern
-- Mit dem Nenner kürzen
-
 ::loesung
 $(10x - 15)/5 = (5(2x - 3))/5 = 2x - 3$
 
@@ -184,11 +174,6 @@ $(6x + 4)/(3x + 2)$
 
 ::tipp
 Klammere im Zähler eine Zahl aus. Was fällt dir am Nenner auf?
-
-::schritte 2
-- Im Zähler einen gemeinsamen Faktor ausklammern
-- Vergleiche die Klammer mit dem Nenner
-- Kürzen
 
 ::loesung
 $(6x + 4)/(3x + 2) = (2(3x + 2))/(3x + 2) = 2$ für $x ≠ -2/3$
@@ -226,10 +211,9 @@ x = 1
 ::tipp
 Multipliziere beide Seiten mit dem Hauptnenner, dann verschwinden die Brüche.
 
-::schritte 3
+::schritte
 - Hauptnenner bestimmen: ((6))
 - Gleichung mit dem Hauptnenner multiplizieren. Links entsteht $3x + 2$, rechts steht die Zahl ((5))
-- Nach $x$ auflösen
 
 ::loesung
 Mit $6$ multipliziert: $3x + 2 = 5 | -2$, also $3x = 3 | :3$, also $x = 1$.
@@ -248,11 +232,6 @@ x = -2: Auch die Zahl $1$ auf der rechten Seite wird mit dem Hauptnenner multipl
 
 ::tipp
 Multipliziere beide Seiten mit $6$. Setze dabei Klammern.
-
-::schritte 2
-- Beide Seiten mit dem Hauptnenner multiplizieren
-- Klammern auflösen und zusammenfassen
-- Nach $x$ auflösen
 
 ::loesung
 Mit $6$ multipliziert: $3(x + 1) - 2x = 6$, also $3x + 3 - 2x = 6$, also $x + 3 = 6 | -3$, also $x = 3$.

@@ -36,10 +36,6 @@ x - 7: Es gilt $-2 * (-5) = +10$. Minus mal Minus ergibt Plus.
 ::tipp
 Löse beide Klammern einzeln auf. Achte auf das Vorzeichen vor jeder Zahl.
 
-::schritte
-- Beide Klammern ausmultiplizieren
-- Gleichartige Teile zusammenfassen
-
 ::loesung
 $-2(x - 5) + 3(x + 1) = -2x + 10 + 3x + 3 = x + 13$
 
@@ -55,11 +51,6 @@ x: Das Minus vor $x(x - 2)$ gilt für die ganze Klammer. Aus $-x(x - 2)$ wird $-
 
 ::tipp
 Multipliziere beide Klammern aus. Was passiert mit den $x^2$-Teilen?
-
-::schritte
-- Beide Klammern ausmultiplizieren
-- Vorzeichen des zweiten Produkts beachten
-- Gleichartige Teile zusammenfassen
 
 ::loesung
 $x(x + 3) - x(x - 2) = x^2 + 3x - x^2 + 2x = 5x$
@@ -134,11 +125,6 @@ x = 5: Beim Auflösen der Klammer wird auch die $-1$ mit $3$ multipliziert.
 ::tipp
 Löse zuerst die Klammer auf.
 
-::schritte
-- Klammer auflösen
-- Teile mit $x$ auf eine Seite bringen
-- Zahlen auf die andere Seite bringen
-
 ::loesung
 $3(2x - 1) = 5x + 4$, also $6x - 3 = 5x + 4 | -5x$, also $x - 3 = 4 | +3$, also $x = 7$.
 
@@ -153,12 +139,6 @@ x = 5
 
 ::tipp
 Multipliziere beide Seiten mit $10$, dann stehen keine Kommazahlen mehr in der Gleichung.
-
-::schritte
-- Beide Seiten mit $10$ multiplizieren
-- Teile mit $x$ auf eine Seite bringen
-- Zahlen auf die andere Seite bringen
-- Durch die Zahl vor $x$ teilen
 
 ::loesung
 Mit $10$ multipliziert: $2x + 10 = 6x - 10 | -2x$, also $10 = 4x - 10 | +10$, also $20 = 4x | :4$, also $x = 5$.
@@ -177,12 +157,6 @@ x = -7/3: Es gilt $-2 * (-1) = +2$. Die Klammer ändert beide Vorzeichen.
 
 ::tipp
 Löse die Klammer auf. Das Minus gehört zur $2$ vor der Klammer.
-
-::schritte
-- Klammer auflösen
-- Gleichartige Teile zusammenfassen
-- Teile mit $x$ auf eine Seite bringen
-- Nach $x$ auflösen
 
 ::loesung
 $4 - 2(x - 1) = x + 9$, also $4 - 2x + 2 = x + 9$, also $6 - 2x = x + 9 | +2x$, also $6 = 3x + 9 | -9$, also $-3 = 3x | :3$, also $x = -1$.
@@ -212,11 +186,6 @@ x = 5
 
 ::tipp
 Der Umfang ist die Summe aller vier Seiten. Stelle daraus eine Gleichung auf.
-
-::schritte
-- Term für den Umfang aufstellen
-- Gleichung lösen
-- Probe am Rechteck machen
 
 ::loesung
 Umfang: $2x + 2(x + 3) = 26$, also $4x + 6 = 26 | -6$, also $4x = 20 | :4$, also $x = 5$.

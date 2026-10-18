@@ -18,7 +18,6 @@ $4x + 7 - x - 2$
 ::schritte
 - $4x - x$ = ((3x))
 - $7 - 2$ = ((5))
-- Beide Ergebnisse zusammen:
 
 ::antwort
 3x + 5
@@ -57,10 +56,6 @@ $-(3x - 5) + 2x$
 ::tipp
 [Minusklammer](../inhalt.md#minusklammer)
 
-::schritte
-- Minusklammer auflösen
-- Gleichartige Teile zusammenfassen
-
 ::loesung
 $-(3x - 5) + 2x = -3x + 5 + 2x = -x + 5$
 
@@ -73,10 +68,6 @@ $2x(x - 4) - 3x$
 
 ::tipp
 Multipliziere zuerst $2x$ mit jedem Teil in der Klammer. Fasse danach zusammen.
-
-::schritte
-- Klammer ausmultiplizieren
-- Teile mit $x$ zusammenfassen
 
 ::loesung
 $2x(x - 4) - 3x = 2x^2 - 8x - 3x = 2x^2 - 11x$
@@ -130,11 +121,6 @@ Bringe zuerst alle Teile mit $x$ auf eine Seite.
 
 [Gleichungen lösen](../inhalt.md#gleichungen-lösen)
 
-::schritte
-- Teile mit $x$ auf eine Seite bringen
-- Zahlen auf die andere Seite bringen
-- Durch die Zahl vor $x$ teilen
-
 ::loesung
 $7x + 4 = 3x - 8 | -3x$, also $4x + 4 = -8 | -4$, also $4x = -12 | :4$, also $x = -3$.
 
@@ -153,12 +139,6 @@ x = 5/2: Beim Auflösen der Klammer wird auch die $3$ mit $2$ multipliziert.
 ::tipp
 Löse zuerst die Klammer auf.
 
-::schritte
-- Klammer auflösen
-- Teile mit $x$ auf eine Seite bringen
-- Zahlen auf die andere Seite bringen
-- Durch die Zahl vor $x$ teilen
-
 ::loesung
 $2(x + 3) = 4x - 2$, also $2x + 6 = 4x - 2 | -2x$, also $6 = 2x - 2 | +2$, also $8 = 2x | :2$, also $x = 4$.
 
@@ -176,11 +156,6 @@ x = 4: Die Minusklammer ändert beide Vorzeichen. Aus $-(2x - 3)$ wird $-2x + 3$
 
 ::tipp
 Löse zuerst die Minusklammer auf. Fasse dann die Teile mit $x$ zusammen.
-
-::schritte
-- Minusklammer auflösen
-- Gleichartige Teile zusammenfassen
-- Nach $x$ auflösen
 
 ::loesung
 $5x - (2x - 3) = 9$, also $5x - 2x + 3 = 9$, also $3x + 3 = 9 | -3$, also $3x = 6 | :3$, also $x = 2$.
@@ -218,10 +193,8 @@ Löse die Gleichung richtig.
 ::antwort
 x = 6
 
-::schritte
-- Klammer richtig auflösen
-- Zahl auf die andere Seite bringen
-- Durch die Zahl vor $x$ teilen
+::tipp
+Löse zuerst die Klammer richtig auf. Bringe dann die Zahl auf die andere Seite und teile durch die Zahl vor $x$.
 
 ::loesung
 $3(x - 2) = 12$, also $3x - 6 = 12 | +6$, also $3x = 18 | :3$, also $x = 6$.
@@ -237,11 +210,6 @@ x = 7
 
 ::tipp
 Schreibe beide Rechnungen als Terme auf. Setze die Terme gleich.
-
-::schritte
-- Gleichung aufstellen
-- Gleichung lösen
-- Probe am Text machen
 
 ::loesung
 Gleichung: $3x + 5 = 2x + 12 | -2x$, also $x + 5 = 12 | -5$, also $x = 7$.

@@ -149,10 +149,9 @@ $A(1 | 5)$ und $B(3 | 1)$
 ::antwort
 f(x) = -2x + 7
 
-::schritte 2
+::schritte
 - Steigung berechnen: $a$ = ((-2))
 - $A$ in $f(x) = a x + b$ einsetzen: $5 = -2 * 1 + b$, also $b$ = ((7))
-- Mit $B$ eine Probe machen und die Funktion aufschreiben
 
 ::loesung
 $a = (1 - 5)/(3 - 1) = -2$. Mit $A$ gilt $5 = -2 + b$, also $b = 7$. Probe: $f(3) = -6 + 7 = 1$.

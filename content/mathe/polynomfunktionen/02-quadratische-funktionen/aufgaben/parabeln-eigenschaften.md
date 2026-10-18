@@ -224,10 +224,9 @@ Der Graph von $f(x) = a x^2 + 1$ geht durch den Punkt $P(2 | 13)$. Bestimme $a$.
 12: Das ist der Wert von $4a$. Teile noch durch $4$.
 6: Setze $x^2 = 2^2 = 4$ ein, nicht $2$.
 
-::schritte 2
+::schritte
 - Punkt einsetzen: $a *$ ((4)) $+ 1 = 13$
 - Nach $4a$ auflösen: $4a$ = ((12))
-- Durch $4$ teilen: $a$ = ((3))
 
 ::loesung
 $a * 2^2 + 1 = 13$, also $4a = 12$ und damit $a = 3$.

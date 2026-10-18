@@ -61,10 +61,6 @@ Der Exponent $3$ gilt für jeden Faktor in der Klammer.
 
 [Multiplikationen und Brüche potenzieren](../inhalt.md#multiplikationen-und-brüche-potenzieren)
 
-::schritte 1
-- Jeden Faktor der Klammer mit $3$ potenzieren
-- Die Zahl ausrechnen
-
 ::loesung
 $(2x)^3 = 2^3 * x^3 = 8x^3$
 
@@ -82,10 +78,6 @@ x^2: Beim Potenzieren einer Potenz werden die Exponenten multipliziert, nicht ad
 Vereinfache zuerst den Zähler. Teile dann durch $x^5$.
 
 [Potenzen potenzieren](../inhalt.md#potenzen-potenzieren)
-
-::schritte 1
-- Die Potenz im Zähler vereinfachen
-- Potenzen mit gleicher Basis dividieren
 
 ::loesung
 $((x^3)^4)/(x^5) = (x^12)/(x^5) = x^(12-5) = x^7$
@@ -105,10 +97,9 @@ Potenziere zuerst den Bruch. Fasse dann die Potenzen von $x$ zusammen.
 
 [Multiplikationen und Brüche potenzieren](../inhalt.md#multiplikationen-und-brüche-potenzieren)
 
-::schritte 2
+::schritte
 - Den Bruch potenzieren: Der Zähler wird zu ((9)), der Nenner zu $x^2$
-- Mit $x^3$ multiplizieren: $(9 x^3)/(x^2)$
-- Potenzen von $x$ zusammenfassen: Der Exponent im Ergebnis ist ((1))
+- Mit $x^3$ multiplizieren ergibt $(9 x^3)/(x^2)$. Potenzen von $x$ zusammenfassen: Der Exponent im Ergebnis ist ((1))
 
 ::loesung
 $(3/x)^2 * x^3 = 9/(x^2) * x^3 = (9 x^3)/(x^2) = 9 x^(3-2) = 9x$ für $x ≠ 0$.
@@ -163,11 +154,6 @@ x^6
 ::tipp
 Vereinfache zuerst $(x^2)^4$. Fasse dann den Zähler zusammen.
 
-::schritte 1
-- Die Potenz im Zähler vereinfachen
-- Im Zähler gleiche Basen multiplizieren
-- Durch $x^5$ dividieren
-
 ::loesung
 $(x^3 * (x^2)^4)/(x^5) = (x^3 * x^8)/(x^5) = (x^11)/(x^5) = x^6$
 
@@ -216,11 +202,10 @@ Welche binomische Formel passt zu einer Summe im Quadrat?
 
 [Die drei binomischen Formeln](../inhalt.md#die-drei-binomischen-formeln)
 
-::schritte 3
+::schritte
 - Erste binomische Formel $(a + b)^2$: Hier ist $a$ = ((x)) und $b$ = ((4))
 - Quadrate berechnen: $a^2$ = ((x^2)) und $b^2$ = ((16))
 - Mittlerer Teil $2 a b$ = ((8x))
-- Alles zusammenschreiben
 
 ::loesung
 $(x + 4)^2 = x^2 + 2 * x * 4 + 4^2 = x^2 + 8x + 16$
@@ -242,11 +227,10 @@ Hier steht ein Minus in der Klammer. Welche Formel passt?
 
 [Die drei binomischen Formeln](../inhalt.md#die-drei-binomischen-formeln)
 
-::schritte 2
+::schritte
 - Zweite binomische Formel $(a - b)^2$: Hier ist $a$ = ((2x)) und $b$ = ((3))
 - Quadrate berechnen: $a^2$ = ((4x^2)) und $b^2$ = ((9))
 - Mittlerer Teil $2 a b$ = ((12x)), mit Vorzeichen ((minus | plus))
-- Alles zusammenschreiben
 
 ::loesung
 $(2x - 3)^2 = (2x)^2 - 2 * 2x * 3 + 3^2 = 4x^2 - 12x + 9$
@@ -265,11 +249,6 @@ Multipliziere mit einer binomischen Formel aus: $(3x + 1)(3x - 1)$
 Die Klammern unterscheiden sich nur im Vorzeichen. Welche Formel passt?
 
 [Die drei binomischen Formeln](../inhalt.md#die-drei-binomischen-formeln)
-
-::schritte 1
-- Dritte binomische Formel erkennen: Summe mal Differenz
-- $a$ und $b$ bestimmen
-- $a^2 - b^2$ berechnen
 
 ::loesung
 $(3x + 1)(3x - 1) = (3x)^2 - 1^2 = 9x^2 - 1$
@@ -308,10 +287,6 @@ Bestimme den fehlenden mittleren Teil: $x^2 + dots + 49 = (x + 7)^2$
 ::tipp
 Der mittlere Teil ist $2 a b$ mit $a = x$ und $b = 7$.
 
-::schritte 1
-- Die erste binomische Formel anwenden
-- Den mittleren Teil $2 a b$ berechnen
-
 ::loesung
 $(x + 7)^2 = x^2 + 2 * x * 7 + 7^2 = x^2 + 14x + 49$
 
@@ -344,10 +319,9 @@ Multipliziere die linke Seite mit einer binomischen Formel aus. Was passiert mit
 
 [Die drei binomischen Formeln](../inhalt.md#die-drei-binomischen-formeln)
 
-::schritte 3
+::schritte
 - Linke Seite mit der ersten binomischen Formel ausmultiplizieren: Der mittlere Teil ist ((6x))
 - Gleichung aufschreiben: $x^2 + 6x + 9 = x^2 + 15$. Subtrahiere auf beiden Seiten ((x^2))
-- Nach $x$ auflösen
 
 ::loesung
 $(x + 3)^2 = x^2 + 15$, also $x^2 + 6x + 9 = x^2 + 15 | -x^2$, also $6x + 9 = 15 | -9$, also $6x = 6 | :6$, also $x = 1$.
@@ -421,10 +395,6 @@ $101^2$
 ::tipp
 Schreibe $101$ als Summe: $101 = 100 + 1$.
 
-::schritte 1
-- $101$ als Summe schreiben
-- Erste binomische Formel anwenden
-
 ::loesung
 $101^2 = (100 + 1)^2 = 100^2 + 2 * 100 * 1 + 1^2 = 10000 + 200 + 1 = 10201$
 
@@ -437,10 +407,6 @@ $49 * 51$
 
 ::tipp
 Beide Zahlen liegen gleich weit von $50$ entfernt.
-
-::schritte 1
-- Beide Zahlen mit $50$ als Summe und Differenz schreiben
-- Dritte binomische Formel anwenden
 
 ::loesung
 $49 * 51 = (50 - 1)(50 + 1) = 50^2 - 1^2 = 2500 - 1 = 2499$

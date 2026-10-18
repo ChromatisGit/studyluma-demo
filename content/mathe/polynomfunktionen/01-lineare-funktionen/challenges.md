@@ -39,12 +39,6 @@ Die Geraden $f(x) = x + 1$ und $g(x) = -x + 5$ begrenzen gemeinsam mit der x-Ach
 ::antwort
 9
 
-::schritte
-- Die drei Eckpunkte berechnen: Schnittpunkte von $f$ mit der x-Achse, von $g$ mit der x-Achse und von $f$ mit $g$
-- Länge der Grundseite auf der x-Achse bestimmen
-- Höhe des Dreiecks bestimmen
-- Flächeninhalt mit $A = 1/2 * "Grundseite" * "Höhe"$ berechnen
-
 ::tipp
 Skizziere die beiden Geraden im Heft. Die Grundseite liegt auf der x-Achse, die Höhe ist die y-Koordinate des Schnittpunkts von $f$ und $g$.
 
