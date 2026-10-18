@@ -19,6 +19,7 @@ export async function sampleTask(request: Request) {
     viewer: "student" as const,
     catalog: (await loadSite(student)).catalog,
     releasedSolutions: [],
+    sessionSheets: null,
   };
   for (const course of site.courses) {
     for (const topic of course.topics) {
