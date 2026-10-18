@@ -15,8 +15,6 @@ $2x^2 - x^2 + 4x = x^2 + 4x$
 
 Die Teile $3x$ und $3x^2$ können wir **nicht** zusammenfassen.
 
----
-
 ## Merkkarte: "Ausmultiplizieren"
 
 Wir multiplizieren jeden Teil in der Klammer mit der Zahl oder Variablen davor.
@@ -59,16 +57,14 @@ Eine Gleichung verbindet zwei Rechenausdrücke mit einem Gleichheitszeichen. Bei
 
 Damit sich die Lösungen beim Umformen nicht verändern, müssen wir **auf beiden Seiten dasselbe machen**:
 
-**Beispiele:** 
-
+::beispiel
 $5x = 2x + 6 | -2x$
 $5x - 2x = 2x -2x + 6$
 $3x = 3$
 
-$"0,5" x + 2 = x + "1,5" | *2$
-$"0,5" x*2 + 2*2 = x*2 + "1,5"*2$
+$0,5 x + 2 = x + 1,5 | *2$
+$0,5 x*2 + 2*2 = x*2 + 1,5*2$
 $x + 4 = 2x + 3$
-
 
 ## Merkkarte: "Gleichungen lösen"
 
@@ -81,15 +77,10 @@ Beim Lösen von einfachen Gleichungen können wir schrittweise vorgehen:
 
 ::beispiel
 $4x-3 = 2(x+3)+1 | Ausmultiplizieren$
-
 $4x-3 = 2x+6+1 | Zusammenfassen$
-
 $4x-3 = 2x+7 | -2x$
-
 $2x-3 = 7 | +3$
-
 $2x = 10 | :2$
-
 $x = 5$
 
 ---
