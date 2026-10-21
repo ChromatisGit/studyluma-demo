@@ -4,8 +4,9 @@ target = "cloudflare"
 domain = "studyluma.org"
 name = "studyluma-demo"
 
-# The Demo runs no Classroom Sessions (a later phase makes it host the session gateway). 
-# The classroom module's routes, runtime and server hook drop out.
+# The Demo runs no Classroom Sessions: the classroom module's routes, runtime
+# and server hook drop out. It hosts the gateway (`studyluma.org/CODE`), see
+# config/directory.toml.
 [modules]
 disabled = ["classroom"]
 
