@@ -1,4 +1,4 @@
-import { Link, useLoaderData, type LoaderFunctionArgs } from "react-router";
+import { Link, useLoaderData } from "react-router";
 import { ArrowRight } from "lucide-react";
 import {
   Accordion,
@@ -9,12 +9,12 @@ import {
   buttonClassName,
 } from "@chromatis/base/ui";
 import { TaskSample } from "@studyluma/app/modules/worksheets";
-import { sampleTask } from "../sample.server";
+import type { loader } from "./landing.server";
 import SITE from "../site.de.json";
 import TEXT from "./landing.de.json";
 import "./landing.css";
 
-/** Opens the demo without credentials (see routes/demo.ts). */
+/** Opens the demo without credentials (see routes/demo.server.ts). */
 const DEMO_ENTRY = "/demo";
 
 export function meta() {
@@ -22,11 +22,6 @@ export function meta() {
     { title: TEXT.meta.title },
     { name: "description", content: TEXT.meta.description },
   ];
-}
-
-export async function loader({ request }: LoaderFunctionArgs) {
-  const { chapter, aufgabeId } = await sampleTask(request);
-  return { chapter: chapter ?? null, aufgabeId };
 }
 
 /** A real task from the demo course: answer it, check it, ask for help. */
