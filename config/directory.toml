@@ -1,0 +1,5 @@
+#:schema ../.chromatis/schemas/directory.schema.json
+# WORKAROUND until the Directory keeps registrations: the gateway asks these
+# instances whether they run a code. A new instance under studyluma.org has to
+# be listed here, or its studyluma.org/CODE links lead nowhere.
+instances = ["https://holst.studyluma.org"]
