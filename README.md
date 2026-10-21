@@ -8,11 +8,11 @@ The Demo instance of StudyLuma: the public marketing site and a curated demo at 
 - `config/app.toml`: Cloudflare target, domain `studyluma.org`, Worker name `studyluma-demo`. The `classroom` module is disabled (the Demo runs no Classroom Sessions) and the package's `/` route is replaced by the Demo's landing page (`[routes] omit`).
 - `config/catalog.toml`: the courses the Demo publishes (see "Curated content" below).
 - `content/`: the authoring sources of the demo courses, in the compiler's layout (not there yet).
-- `app/`: the Demo's own pages and shell (landing, roadmap, impressum, `/demo`, `PublicShell`, footer) and `app/routes.ts`. Everything else (courses, worksheets, lesson views, `/api/check`, ...) comes from `@studyluma/app` through the generated `.chromatis/app`; the Demo repeats none of it.
-- `public/`: favicon, share image, `robots.txt`, `sitemap.xml`, `_headers`, the portrait on the landing page.
+- `app/`: the Demo's own pages and shell (landing, roadmap, impressum, `/demo`, `PublicShell`, footer) and `app/routes.ts`, a list of route declarations with `./` files. Pages render in the browser; a page's loader lives in its `.server.ts` file (`landing.server.ts` picks the sample task, `demo.server.ts` sets the viewer cookie and redirects into the first course). Everything else (courses, worksheets, lesson views, `/api/check`, ...) comes from `@studyluma/app` through the generated `.chromatis/app`; the Demo repeats none of it.
+- `public/`: favicon, share image, `robots.txt`, `sitemap.xml`, `_headers`, the portrait on the landing page. They win over the files of the same name in `@studyluma/app`'s `public/`.
 - `tsconfig.json`, `eslint.config.js`: one-line stubs written by `chromatis init`.
 
-No Wrangler config, Dockerfile, Vite/React Router config or database: Chromatis generates what is needed under `.chromatis/` and `react-router.config.ts` (git-ignored), and the Demo has no database or secrets.
+No Wrangler config, Dockerfile, Vite config or database: Chromatis generates what is needed under `.chromatis/` (git-ignored), and the Demo has no database or secrets.
 
 ## Local development
 
