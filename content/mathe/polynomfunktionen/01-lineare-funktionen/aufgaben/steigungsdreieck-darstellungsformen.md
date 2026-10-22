@@ -12,11 +12,11 @@ Ergänze die fehlenden Werte der Steigungsdreiecke.
 
 | $Delta x$ | $Delta y$ | $a$ |
 | --- | --- | --- |
-| $2$ | $6$ | ((3)) |
-| $4$ | $2$ | ((1/2)) |
-| $3$ | $-6$ | ((-2)) |
-| ((5)) | $10$ | $2$ |
-| $6$ | ((-3)) | $-1/2$ |
+| $2$ | $6$ | (($3$)) |
+| $4$ | $2$ | (($1/2$)) |
+| $3$ | $-6$ | (($-2$)) |
+| (($5$)) | $10$ | $2$ |
+| $6$ | (($-3$)) | $-1/2$ |
 
 ::tipp
 Es gilt $a = (Delta y)/(Delta x)$. Bei den letzten beiden Zeilen ist $a$ bekannt und eine Größe fehlt.
@@ -150,8 +150,8 @@ $A(1 | 5)$ und $B(3 | 1)$
 f(x) = -2x + 7
 
 ::schritte
-- Steigung berechnen: $a$ = ((-2))
-- $A$ in $f(x) = a x + b$ einsetzen: $5 = -2 * 1 + b$, also $b$ = ((7))
+- Steigung berechnen: $a$ = (($-2$))
+- $A$ in $f(x) = a x + b$ einsetzen: $5 = -2 * 1 + b$, also $b$ = (($7$))
 
 ::loesung
 $a = (1 - 5)/(3 - 1) = -2$. Mit $A$ gilt $5 = -2 + b$, also $b = 7$. Probe: $f(3) = -6 + 7 = 1$.

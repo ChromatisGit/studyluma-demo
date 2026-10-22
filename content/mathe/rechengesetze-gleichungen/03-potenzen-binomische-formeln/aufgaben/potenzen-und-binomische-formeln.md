@@ -9,11 +9,11 @@ einleitung = "Wähle zuerst, wie du die Aufgaben angehen möchtest. Rechne im He
 
 Ergänze die Rechenregeln.
 
-Bei $x^3 * x^4$ ((addieren | multiplizieren | subtrahieren)) wir die Exponenten. Es gilt $x^3 * x^4 = x^n$ mit $n$ = ((7)).
+Bei $x^3 * x^4$ ((addieren | multiplizieren | subtrahieren)) wir die Exponenten. Es gilt $x^3 * x^4 = x^n$ mit $n$ = (($7$)).
 
-Bei $x^5 : x^2$ ((subtrahieren | addieren | dividieren)) wir die Exponenten. Es gilt $x^5 : x^2 = x^n$ mit $n$ = ((3)).
+Bei $x^5 : x^2$ ((subtrahieren | addieren | dividieren)) wir die Exponenten. Es gilt $x^5 : x^2 = x^n$ mit $n$ = (($3$)).
 
-Bei $(x^2)^3$ ((multiplizieren | addieren | potenzieren)) wir die Exponenten. Es gilt $(x^2)^3 = x^n$ mit $n$ = ((6)).
+Bei $(x^2)^3$ ((multiplizieren | addieren | potenzieren)) wir die Exponenten. Es gilt $(x^2)^3 = x^n$ mit $n$ = (($6$)).
 
 ::tipp
 Wann addierst, wann subtrahierst und wann multiplizierst du die Exponenten?
@@ -98,8 +98,8 @@ Potenziere zuerst den Bruch. Fasse dann die Potenzen von $x$ zusammen.
 [Multiplikationen und Brüche potenzieren](../inhalt.md#multiplikationen-und-brüche-potenzieren)
 
 ::schritte
-- Den Bruch potenzieren: Der Zähler wird zu ((9)), der Nenner zu $x^2$
-- Mit $x^3$ multiplizieren ergibt $(9 x^3)/(x^2)$. Potenzen von $x$ zusammenfassen: Der Exponent im Ergebnis ist ((1))
+- Den Bruch potenzieren: Der Zähler wird zu (($9$)), der Nenner zu $x^2$
+- Mit $x^3$ multiplizieren ergibt $(9 x^3)/(x^2)$. Potenzen von $x$ zusammenfassen: Der Exponent im Ergebnis ist (($1$))
 
 ::loesung
 $(3/x)^2 * x^3 = 9/(x^2) * x^3 = (9 x^3)/(x^2) = 9 x^(3-2) = 9x$ für $x ≠ 0$.
@@ -203,9 +203,9 @@ Welche binomische Formel passt zu einer Summe im Quadrat?
 [Die drei binomischen Formeln](../inhalt.md#die-drei-binomischen-formeln)
 
 ::schritte
-- Erste binomische Formel $(a + b)^2$: Hier ist $a$ = ((x)) und $b$ = ((4))
-- Quadrate berechnen: $a^2$ = ((x^2)) und $b^2$ = ((16))
-- Mittlerer Teil $2 a b$ = ((8x))
+- Erste binomische Formel $(a + b)^2$: Hier ist $a$ = (($x$)) und $b$ = (($4$))
+- Quadrate berechnen: $a^2$ = (($x^2$)) und $b^2$ = (($16$))
+- Mittlerer Teil $2 a b$ = (($8x$))
 
 ::loesung
 $(x + 4)^2 = x^2 + 2 * x * 4 + 4^2 = x^2 + 8x + 16$
@@ -228,9 +228,9 @@ Hier steht ein Minus in der Klammer. Welche Formel passt?
 [Die drei binomischen Formeln](../inhalt.md#die-drei-binomischen-formeln)
 
 ::schritte
-- Zweite binomische Formel $(a - b)^2$: Hier ist $a$ = ((2x)) und $b$ = ((3))
-- Quadrate berechnen: $a^2$ = ((4x^2)) und $b^2$ = ((9))
-- Mittlerer Teil $2 a b$ = ((12x)), mit Vorzeichen ((minus | plus))
+- Zweite binomische Formel $(a - b)^2$: Hier ist $a$ = (($2x$)) und $b$ = (($3$))
+- Quadrate berechnen: $a^2$ = (($4x^2$)) und $b^2$ = (($9$))
+- Mittlerer Teil $2 a b$ = (($12x$)), mit Vorzeichen ((minus | plus))
 
 ::loesung
 $(2x - 3)^2 = (2x)^2 - 2 * 2x * 3 + 3^2 = 4x^2 - 12x + 9$
@@ -320,8 +320,8 @@ Multipliziere die linke Seite mit einer binomischen Formel aus. Was passiert mit
 [Die drei binomischen Formeln](../inhalt.md#die-drei-binomischen-formeln)
 
 ::schritte
-- Linke Seite mit der ersten binomischen Formel ausmultiplizieren: Der mittlere Teil ist ((6x))
-- Gleichung aufschreiben: $x^2 + 6x + 9 = x^2 + 15$. Subtrahiere auf beiden Seiten ((x^2))
+- Linke Seite mit der ersten binomischen Formel ausmultiplizieren: Der mittlere Teil ist (($6x$))
+- Gleichung aufschreiben: $x^2 + 6x + 9 = x^2 + 15$. Subtrahiere auf beiden Seiten (($x^2$))
 
 ::loesung
 $(x + 3)^2 = x^2 + 15$, also $x^2 + 6x + 9 = x^2 + 15 | -x^2$, also $6x + 9 = 15 | -9$, also $6x = 6 | :6$, also $x = 1$.

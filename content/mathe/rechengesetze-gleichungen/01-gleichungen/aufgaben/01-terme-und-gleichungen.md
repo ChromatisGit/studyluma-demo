@@ -16,8 +16,8 @@ Vereinfache so weit wie möglich.
 $4x + 7 - x - 2$
 
 ::schritte
-- $4x - x$ = ((3x))
-- $7 - 2$ = ((5))
+- $4x - x$ = (($3x$))
+- $7 - 2$ = (($5$))
 
 ::antwort
 3x + 5
@@ -78,8 +78,8 @@ Klammere den größtmöglichen gemeinsamen Faktor aus.
 
 | Summe | gemeinsamer Faktor | Rest in der Klammer |
 | --- | --- | --- |
-| $12x + 18$ | ((6)) | ((2x + 3)) |
-| $5x^2 - 10x$ | ((5x)) | ((x - 2)) |
+| $12x + 18$ | (($6$)) | (($2x + 3$)) |
+| $5x^2 - 10x$ | (($5x$)) | (($x - 2$)) |
 
 ::tipp
 Suche die größte Zahl, die in beiden Zahlen steckt. Prüfe, ob auch $x$ ausgeklammert werden kann.
@@ -97,7 +97,7 @@ Probe: Beim Ausmultiplizieren entsteht wieder die Summe.
 
 Löse die Gleichung $5x - 7 = 18$.
 
-Addiere auf beiden Seiten ((7)). Es entsteht $5x = 25$. Teile dann auf beiden Seiten durch ((5)). Die Lösung ist $x$ = ((5)).
+Addiere auf beiden Seiten (($7$)). Es entsteht $5x = 25$. Teile dann auf beiden Seiten durch (($5$)). Die Lösung ist $x$ = (($5$)).
 
 ::loesung
 $5x - 7 = 18 | +7$, also $5x = 25 | :5$, also $x = 5$. Probe: $5 * 5 - 7 = 18$.

@@ -135,7 +135,7 @@ Setze $f(x) = g(x)$ und löse die Gleichung. Wie lautet die x-Koordinate des Sch
 x = 2
 
 ::schritte
-- Gleichsetzen: $x + 3 = 3x - 1$. Alle Teile mit $x$ auf eine Seite und die Zahlen auf die andere: $4$ = ((2)) $x$
+- Gleichsetzen: $x + 3 = 3x - 1$. Alle Teile mit $x$ auf eine Seite und die Zahlen auf die andere: $4$ = (($2$)) $x$
 
 ::tipp
 Subtrahiere auf beiden Seiten $x$ und addiere dann $1$.
@@ -162,7 +162,7 @@ $f(2) = 2 + 3 = 5$. Probe mit $g$: $g(2) = 6 - 1 = 5$. Der Schnittpunkt ist $S(2
 
 Berechne den Schnittpunkt $S$ von $f(x) = 2x - 4$ und $g(x) = -x + 5$.
 
-$x_S$ = ((3)) und $y_S$ = ((2))
+$x_S$ = (($3$)) und $y_S$ = (($2$))
 
 ::tipp
 Setze gleich, löse nach $x$ und setze das Ergebnis in eine der beiden Funktionen ein.
@@ -176,7 +176,7 @@ $2x - 4 = -x + 5 | +x$, also $3x - 4 = 5 | +4$, also $3x = 9 | :3$, also $x = 3$
 
 Berechne den Schnittpunkt $S$ von $f(x) = -3x + 1$ und $g(x) = x - 7$.
 
-$x_S$ = ((2)) und $y_S$ = ((-5))
+$x_S$ = (($2$)) und $y_S$ = (($-5$))
 
 ::loesung
 $-3x + 1 = x - 7 | +3x$, also $1 = 4x - 7 | +7$, also $8 = 4x$ und $x = 2$. Dann gilt $f(2) = -6 + 1 = -5$. Probe: $g(2) = 2 - 7 = -5$.
@@ -185,7 +185,7 @@ $-3x + 1 = x - 7 | +3x$, also $1 = 4x - 7 | +7$, also $8 = 4x$ und $x = 2$. Dann
 
 Berechne den Schnittpunkt $S$ von $f(x) = 2/3 x - 1$ und $g(x) = x/3 + 1$.
 
-$x_S$ = ((6)) und $y_S$ = ((3))
+$x_S$ = (($6$)) und $y_S$ = (($3$))
 
 ::tipp
 Subtrahiere $x/3$ auf beiden Seiten. Du kannst auch zuerst mit $3$ multiplizieren, um die Brüche zu beseitigen.
@@ -255,7 +255,7 @@ Die Aussage $3 = 3$ ist für jedes $x$ wahr. Alle Punkte sind gemeinsam, die Ger
 
 Berechne den Schnittpunkt $S$ von $f(x) = 2x - 1$ und $g(x) = -x + 8$.
 
-$x_S$ = ((3)) und $y_S$ = ((5))
+$x_S$ = (($3$)) und $y_S$ = (($5$))
 
 ::loesung
 $2x - 1 = -x + 8 | +x$, also $3x - 1 = 8 | +1$, also $3x = 9$ und $x = 3$. Dann gilt $f(3) = 6 - 1 = 5$. Probe: $g(3) = -3 + 8 = 5$.

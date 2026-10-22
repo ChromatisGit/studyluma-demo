@@ -50,7 +50,7 @@ Mit der Scheitelpunktform können wir den Scheitelpunkt direkt ablesen und Parab
 
 Lies den Scheitelpunkt von $f(x) = 2 (x - 3)^2 + 1$ ab.
 
-Der Scheitelpunkt hat die x-Koordinate ((3)) und die y-Koordinate ((1)). Die Parabel ist nach ((oben | unten)) geöffnet.
+Der Scheitelpunkt hat die x-Koordinate (($3$)) und die y-Koordinate (($1$)). Die Parabel ist nach ((oben | unten)) geöffnet.
 
 ::loesung
 Mit $d = 3$ und $k = 1$ ist $S(3 | 1)$. Wegen $a = 2 > 0$ ist die Parabel nach oben geöffnet.
@@ -59,7 +59,7 @@ Mit $d = 3$ und $k = 1$ ist $S(3 | 1)$. Wegen $a = 2 > 0$ ist die Parabel nach o
 
 Lies den Scheitelpunkt von $g(x) = -(x + 2)^2 + 4$ ab.
 
-Der Scheitelpunkt hat die x-Koordinate ((-2)) und die y-Koordinate ((4)). Der größte Funktionswert ist ((4)).
+Der Scheitelpunkt hat die x-Koordinate (($-2$)) und die y-Koordinate (($4$)). Der größte Funktionswert ist (($4$)).
 
 ::tipp
 Schreibe $x + 2$ als $x - (-2)$.
@@ -130,7 +130,7 @@ Aus $x^2 - 6x + 9 + 2$ ergibt sich $c = 9 + 2 = 11$.
 
 Wir schreiben $f(x) = x^2 + 4x + 1$ in Scheitelpunktform um: $f(x) = (x - d)^2 + k$.
 
-Es gilt $d$ = ((-2)) und $k$ = ((-3)).
+Es gilt $d$ = (($-2$)) und $k$ = (($-3$)).
 
 ::tipp
 Ergänze $x^2 + 4x$ zu einer binomischen Formel: $(x + 2)^2 = x^2 + 4x + 4$. Du hast dann $3$ zu viel addiert.
