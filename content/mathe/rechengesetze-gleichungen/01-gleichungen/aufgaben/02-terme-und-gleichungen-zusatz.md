@@ -63,9 +63,9 @@ Klammere den größtmöglichen gemeinsamen Faktor aus.
 
 | Summe | gemeinsamer Faktor | Rest in der Klammer |
 | --- | --- | --- |
-| $10x - 15$ | ((5)) | ((2x - 3)) |
-| $4x^2 + 8x$ | ((4x)) | ((x + 2)) |
-| $x^3 - x^2$ | ((x^2)) | ((x - 1)) |
+| $10x - 15$ | (($5$)) | (($2x - 3$)) |
+| $4x^2 + 8x$ | (($4x$)) | (($x + 2$)) |
+| $x^3 - x^2$ | (($x^2$)) | (($x - 1$)) |
 
 ::tipp
 Prüfe getrennt: Welche Zahl steckt in beiden Teilen? Welche Potenz von $x$ steckt in beiden Teilen?

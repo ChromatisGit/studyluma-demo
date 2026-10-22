@@ -12,9 +12,9 @@ Erweitere oder kürze wie angegeben.
 
 | Bruch | Schritt | neuer Zähler | neuer Nenner |
 | --- | --- | --- | --- |
-| $3/7$ | mit $4$ erweitern | ((12)) | ((28)) |
-| $5/8$ | auf den Nenner $24$ erweitern | ((15)) | ((24)) |
-| $24/36$ | vollständig kürzen | ((2)) | ((3)) |
+| $3/7$ | mit $4$ erweitern | (($12$)) | (($28$)) |
+| $5/8$ | auf den Nenner $24$ erweitern | (($15$)) | (($24$)) |
+| $24/36$ | vollständig kürzen | (($2$)) | (($3$)) |
 
 ::tipp
 Mit welcher Zahl wird der Nenner $8$ zu $24$? Rechne mit dem Zähler dasselbe.

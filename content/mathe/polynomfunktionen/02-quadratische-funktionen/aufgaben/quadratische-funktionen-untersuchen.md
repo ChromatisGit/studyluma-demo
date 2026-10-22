@@ -58,10 +58,10 @@ Lies die Koeffizienten der allgemeinen Form $f(x) = a x^2 + b x + c$ ab.
 
 | Funktion | $a$ | $b$ | $c$ |
 | --- | --- | --- | --- |
-| $f(x) = 2x^2 + 3x - 4$ | ((2)) | ((3)) | ((-4)) |
-| $g(x) = -x^2 + 4x$ | ((-1)) | ((4)) | ((0)) |
-| $h(x) = x^2 - 7$ | ((1)) | ((0)) | ((-7)) |
-| $k(x) = 6 - x - 3x^2$ | ((-3)) | ((-1)) | ((6)) |
+| $f(x) = 2x^2 + 3x - 4$ | (($2$)) | (($3$)) | (($-4$)) |
+| $g(x) = -x^2 + 4x$ | (($-1$)) | (($4$)) | (($0$)) |
+| $h(x) = x^2 - 7$ | (($1$)) | (($0$)) | (($-7$)) |
+| $k(x) = 6 - x - 3x^2$ | (($-3$)) | (($-1$)) | (($6$)) |
 
 ::tipp
 Fehlt ein Teil im Term, ist sein Koeffizient $0$. Achte auf die Vorzeichen.
@@ -112,7 +112,7 @@ Lies am Graphen den Scheitelpunkt ab.
 
 ::grafik [Parabel mit Scheitelpunkt](../grafiken/scheitelpunkt-tiefpunkt.toml)
 
-Der Scheitelpunkt hat die x-Koordinate ((3)) und die y-Koordinate ((-2)). Er ist ein ((Tiefpunkt | Hochpunkt)). Der kleinste Funktionswert ist ((-2)).
+Der Scheitelpunkt hat die x-Koordinate (($3$)) und die y-Koordinate (($-2$)). Er ist ein ((Tiefpunkt | Hochpunkt)). Der kleinste Funktionswert ist (($-2$)).
 
 ::tipp
 Ist die Parabel nach oben oder nach unten geöffnet? Was bedeutet das für den Scheitelpunkt?
@@ -209,7 +209,7 @@ $h(0) = 2$. Der Ball wird aus $2$ Metern Höhe geworfen.
 
 Berechne die Höhe nach einer und nach zwei Sekunden.
 
-$h(1)$ = ((7)) und $h(2)$ = ((2))
+$h(1)$ = (($7$)) und $h(2)$ = (($2$))
 
 ::loesung
 $h(1) = -5 + 10 + 2 = 7$ und $h(2) = -20 + 20 + 2 = 2$.
@@ -266,7 +266,7 @@ Vervollständige die Wertetabelle für $f(x) = x^2 - 4x + 1$.
 
 | $x$ | $0$ | $1$ | $2$ | $3$ | $4$ |
 | --- | --- | --- | --- | --- | --- |
-| $f(x)$ | ((1)) | ((-2)) | ((-3)) | ((-2)) | ((1)) |
+| $f(x)$ | (($1$)) | (($-2$)) | (($-3$)) | (($-2$)) | (($1$)) |
 
 ::loesung
 $f(0) = 1$, $quad f(1) = 1 - 4 + 1 = -2$, $quad f(2) = 4 - 8 + 1 = -3$, $quad f(3) = 9 - 12 + 1 = -2$, $quad f(4) = 16 - 16 + 1 = 1$.
@@ -316,7 +316,7 @@ Aus $B(0 | 3)$ folgt $c = 3$. Mit $A(-1 | 0)$ gilt $a - b + 3 = 0$ und mit $C(3 
 
 Lies die Koeffizienten von $f(x) = 3x^2 - 5x + 2$ ab.
 
-$a$ = ((3)), $quad b$ = ((-5)), $quad c$ = ((2))
+$a$ = (($3$)), $quad b$ = (($-5$)), $quad c$ = (($2$))
 
 ::loesung
 Die Zahl vor $x^2$ ist $a = 3$, die Zahl vor $x$ ist $b = -5$ und das konstante Glied ist $c = 2$.
@@ -358,7 +358,7 @@ Lies am Graphen den Scheitelpunkt ab.
 
 ::grafik [Parabel mit Scheitelpunkt](../grafiken/checkpoint-scheitelpunkt.toml)
 
-Der Scheitelpunkt hat die x-Koordinate ((2)) und die y-Koordinate ((3)). Er ist ein ((Hochpunkt | Tiefpunkt)).
+Der Scheitelpunkt hat die x-Koordinate (($2$)) und die y-Koordinate (($3$)). Er ist ein ((Hochpunkt | Tiefpunkt)).
 
 ::loesung
 Der Scheitelpunkt ist $S(2 | 3)$. Die Parabel ist nach unten geöffnet, also ist er ein Hochpunkt.

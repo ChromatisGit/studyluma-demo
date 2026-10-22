@@ -74,7 +74,7 @@ $c$ verschiebt die Parabel nach oben oder unten und verändert ihre Breite nicht
 
 Beschreibe den Graphen von $f(x) = 1/3 x^2 - 4$.
 
-Die Parabel ist nach ((oben | unten)) geöffnet und ((weiter | enger)) als die Normalparabel. Der Scheitelpunkt liegt bei $x$ = ((0)) und $y$ = ((-4)).
+Die Parabel ist nach ((oben | unten)) geöffnet und ((weiter | enger)) als die Normalparabel. Der Scheitelpunkt liegt bei $x$ = (($0$)) und $y$ = (($-4$)).
 
 ::tipp
 Wie wirken $a$ und $c$?
@@ -92,7 +92,7 @@ Vervollständige die Wertetabelle für $f(x) = -x^2 + 2$.
 
 | $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |
 | --- | --- | --- | --- | --- | --- |
-| $f(x)$ | ((-2)) | ((1)) | ((2)) | ((1)) | ((-2)) |
+| $f(x)$ | (($-2$)) | (($1$)) | (($2$)) | (($1$)) | (($-2$)) |
 
 ::loesung
 $f(-2) = -(-2)^2 + 2 = -4 + 2 = -2$, $quad f(-1) = -1 + 2 = 1$, $quad f(0) = 2$, $quad f(1) = 1$, $quad f(2) = -2$.
@@ -225,8 +225,8 @@ Der Graph von $f(x) = a x^2 + 1$ geht durch den Punkt $P(2 | 13)$. Bestimme $a$.
 6: Setze $x^2 = 2^2 = 4$ ein, nicht $2$.
 
 ::schritte
-- Punkt einsetzen: $a *$ ((4)) $+ 1 = 13$
-- Nach $4a$ auflösen: $4a$ = ((12))
+- Punkt einsetzen: $a *$ (($4$)) $+ 1 = 13$
+- Nach $4a$ auflösen: $4a$ = (($12$))
 
 ::loesung
 $a * 2^2 + 1 = 13$, also $4a = 12$ und damit $a = 3$.
@@ -292,7 +292,7 @@ $a = -1/2$ ist negativ, also ist die Parabel nach unten geöffnet. Wegen $abs(a)
 
 Beschreibe den Graphen von $f(x) = 3x^2 - 5$.
 
-Die Parabel ist nach ((oben | unten)) geöffnet, ((enger | weiter)) als die Normalparabel und schneidet die y-Achse bei $y$ = ((-5)).
+Die Parabel ist nach ((oben | unten)) geöffnet, ((enger | weiter)) als die Normalparabel und schneidet die y-Achse bei $y$ = (($-5$)).
 
 ::loesung
 $a = 3 > 0$ bedeutet nach oben geöffnet, $abs(a) > 1$ bedeutet enger als die Normalparabel. Wegen $f(0) = c = -5$ schneidet die Parabel die y-Achse bei $-5$.

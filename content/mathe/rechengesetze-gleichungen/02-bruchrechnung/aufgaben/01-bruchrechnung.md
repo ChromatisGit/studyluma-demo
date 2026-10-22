@@ -13,9 +13,9 @@ Erweitere oder kürze wie angegeben.
 
 | Bruch | Schritt | neuer Zähler | neuer Nenner |
 | --- | --- | --- | --- |
-| $2/5$ | mit $3$ erweitern | ((6)) | ((15)) |
-| $18/24$ | durch $6$ kürzen | ((3)) | ((4)) |
-| $12/20$ | vollständig kürzen | ((3)) | ((5)) |
+| $2/5$ | mit $3$ erweitern | (($6$)) | (($15$)) |
+| $18/24$ | durch $6$ kürzen | (($3$)) | (($4$)) |
+| $12/20$ | vollständig kürzen | (($3$)) | (($5$)) |
 
 ::tipp
 Beim Erweitern und beim Kürzen rechnest du mit Zähler und Nenner dasselbe.
@@ -61,10 +61,10 @@ $2/3 + 3/4 - 1/2$
 Suche einen gemeinsamen Nenner für $3$, $4$ und $2$.
 
 ::schritte
-- Hauptnenner bestimmen: ((12))
-- $2/3$ auf Zwölftel erweitern, der Zähler ist dann ((8))
-- $3/4$ auf Zwölftel erweitern, der Zähler ist dann ((9))
-- $1/2$ auf Zwölftel erweitern, der Zähler ist dann ((6))
+- Hauptnenner bestimmen: (($12$))
+- $2/3$ auf Zwölftel erweitern, der Zähler ist dann (($8$))
+- $3/4$ auf Zwölftel erweitern, der Zähler ist dann (($9$))
+- $1/2$ auf Zwölftel erweitern, der Zähler ist dann (($6$))
 
 ::loesung
 Hauptnenner $12$: $2/3 + 3/4 - 1/2 = 8/12 + 9/12 - 6/12 = (8 + 9 - 6)/12 = 11/12$
@@ -212,8 +212,8 @@ x = 1
 Multipliziere beide Seiten mit dem Hauptnenner, dann verschwinden die Brüche.
 
 ::schritte
-- Hauptnenner bestimmen: ((6))
-- Gleichung mit dem Hauptnenner multiplizieren. Links entsteht $3x + 2$, rechts steht die Zahl ((5))
+- Hauptnenner bestimmen: (($6$))
+- Gleichung mit dem Hauptnenner multiplizieren. Links entsteht $3x + 2$, rechts steht die Zahl (($5$))
 
 ::loesung
 Mit $6$ multipliziert: $3x + 2 = 5 | -2$, also $3x = 3 | :3$, also $x = 1$.

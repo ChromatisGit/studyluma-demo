@@ -12,10 +12,10 @@ Lies bei jeder Funktion die Steigung $a$ und den y-Achsenabschnitt $b$ ab.
 
 | Funktion | $a$ | $b$ |
 | --- | --- | --- |
-| $f(x) = 3x - 5$ | ((3)) | ((-5)) |
-| $g(x) = -x + 2$ | ((-1)) | ((2)) |
-| $h(x) = x/2$ | ((1/2)) | ((0)) |
-| $k(x) = 4 - 2x$ | ((-2)) | ((4)) |
+| $f(x) = 3x - 5$ | (($3$)) | (($-5$)) |
+| $g(x) = -x + 2$ | (($-1$)) | (($2$)) |
+| $h(x) = x/2$ | (($1/2$)) | (($0$)) |
+| $k(x) = 4 - 2x$ | (($-2$)) | (($4$)) |
 
 ::tipp
 Ordne den Term zuerst in der Form $a x + b$. Steht vor dem $x$ nur ein Minuszeichen, ist $a = -1$.
@@ -96,11 +96,11 @@ Ergänze die Wertetabelle der Funktion $f(x) = 2x - 1$.
 
 | $x$ | $f(x)$ |
 | --- | --- |
-| $-2$ | ((-5)) |
+| $-2$ | (($-5$)) |
 | $0$ | $-1$ |
-| ((1)) | $1$ |
-| $3$ | ((5)) |
-| ((4)) | $7$ |
+| (($1$)) | $1$ |
+| $3$ | (($5$)) |
+| (($4$)) | $7$ |
 
 ::tipp
 Bei den Zeilen mit fehlendem $x$ ist der Funktionswert vorgegeben. Löse die Gleichung $2x - 1 = 7$.
@@ -262,7 +262,7 @@ Mit $a = 2$ und $b = -1$ erhalten wir $f(x) = 2x - 1$.
 
 Lies bei $f(x) = 5x - 8$ die Werte ab.
 
-Die Steigung ist $a$ = ((5)) und der y-Achsenabschnitt ist $b$ = ((-8)).
+Die Steigung ist $a$ = (($5$)) und der y-Achsenabschnitt ist $b$ = (($-8$)).
 
 ::loesung
 In $f(x) = a x + b$ steht $a$ vor dem $x$ und $b$ als Summand ohne $x$. Hier ist $a = 5$ und $b = -8$.
